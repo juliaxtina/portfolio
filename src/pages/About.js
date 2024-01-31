@@ -137,13 +137,13 @@ const About = () => {
                 </div>
 
                 <p class="lg:text-lg leading-relaxed font-medium my-6 dark:text-gray-400">
-                  Matheus Gomes, 27yd
+                  Júlia Cristina
                   <br />
                   <a
-                    href="mailto:matgoms@gmail.com"
+                    href="mailto:juliacristinap.santos@gmail.com"
                     class="text-gray-600 underline dark:text-gray-400 hover:no-underline"
                   >
-                    matgoms@gmail.com
+                    juliacristinap.santos@gmail.com
                   </a>
                   <br />
                   São Paulo, Brazil

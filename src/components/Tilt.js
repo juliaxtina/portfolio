@@ -32,11 +32,13 @@ const TiltComponent = () => {
         <img
           src="../img/home/like.png"
           class="w-56"
+          alt=""
           style={{ transform: "translate3d(150px,100px,00px)" }}
         />
         <img
           src="../img/home/paletas.png"
           class="w-24"
+          alt=""
           style={{ transform: "translate3d(180px,-120px,40px)" }}
         />
        {/*  <img
@@ -49,26 +51,31 @@ const TiltComponent = () => {
         <img
           src="../img/home/tela.png"
           class="w-72 block dark:hidden"
+          alt=""
           style={{ transform: "translate3d(0,0,100px)" }}
         />
         <img
           src="../img/home/teladark.png"
           class="w-72 hidden dark:block"
+          alt=""
           style={{ transform: "translate3d(0,0,100px)" }}
         />
         <img
           src="../img/home/video.png"
           class="w-60"
+          alt=""
           style={{ transform: "translate3d(-80px, -80px,160px)" }}
         />
         <img
           src="../img/home/toolslight.png"
           class="w-24 hidden dark:block dark:bg-slate-700 bg-slate-100 rounded-md "
+          alt=""
           style={{ transform: "translate3d(-150px, 110px,200px)" }}
         />
         <img
           src="../img/home/toolsdark.png"
           class="w-24 block dark:hidden bg-slate-200 rounded-xl"
+          alt=""
           style={{ transform: "translate3d(-150px, 110px,200px)" }}
         />
       </div>

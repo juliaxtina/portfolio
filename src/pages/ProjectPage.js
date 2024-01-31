@@ -1,4 +1,4 @@
-import React, { useEffect, useState  } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Menu from "../components/Menu";
 /* import { SocialProjects, UXUIProjects, MotionProjects } from '../components/Content'; // Import projects directly */
@@ -6,7 +6,6 @@ import ImageFull from "../components/ImageFull";
 import Footer from "../components/Footer";
 import { LinkIcon } from "@heroicons/react/24/outline";
 import RecentProjects from "./recentprojects";
-
 
 // Use require.context to dynamically import all files within './projects'
 const uxuiContext = require.context("../projects/uxui", false, /\.js$/);
@@ -24,37 +23,38 @@ const motionProjects = motionFilePaths.map(
   (filePath) => motionContext(filePath).default
 );
 
-
-
-
 const ProjectPage = () => {
- 
   const { projectName } = useParams();
-  const [projectFolder, setProjectFolder] = useState('');
+  const [projectFolder, setProjectFolder] = useState("");
 
- useEffect(() => {
+  useEffect(() => {
+    const checkFilePath = (filePath, folder) => {
+      const lowerCaseFilePath = filePath.toLowerCase();
+      return lowerCaseFilePath.includes(folder.toLowerCase());
+    };
 
-  const checkFilePath = (filePath, folder) => {
-    const lowerCaseFilePath = filePath.toLowerCase();
-    return lowerCaseFilePath.includes(folder.toLowerCase());
-  };
-    
-  const findProjectFolder = (projectName) => {
-    const isFoundInUxui = uxuiFilePaths.some((filePath) => checkFilePath(filePath, projectName));
-    const isFoundInMotionVfx = motionFilePaths.some((filePath) => checkFilePath(filePath, projectName));
+    const findProjectFolder = (projectName) => {
+      const isFoundInUxui = uxuiFilePaths.some((filePath) =>
+        checkFilePath(filePath, projectName)
+      );
+      const isFoundInMotionVfx = motionFilePaths.some((filePath) =>
+        checkFilePath(filePath, projectName)
+      );
 
-    if (isFoundInUxui) {
-      return 'uxui';
-    } else if (isFoundInMotionVfx) {
-      return 'motion-vfx';
-    } else {
-      return 'Pasta não encontrada';
-    }
-  };
+      if (isFoundInUxui) {
+        return "uxui";
+      } else if (isFoundInMotionVfx) {
+        return "motion-vfx";
+      } else {
+        return "Pasta não encontrada";
+      }
+    };
 
-  const projectFolder = findProjectFolder(projectName);
-  setProjectFolder(projectFolder);
-  console.log(`O arquivo ${projectName} está localizado em: ${projectFolder}`);
+    const projectFolder = findProjectFolder(projectName);
+    setProjectFolder(projectFolder);
+    console.log(
+      `O arquivo ${projectName} está localizado em: ${projectFolder}`
+    );
 
     // Scroll to the top when the component mounts or the projectName changes
     window.scrollTo(0, 0);
@@ -62,7 +62,7 @@ const ProjectPage = () => {
 
   // Find the corresponding project based on the title (not an id)
   const project =
-   uxuiProjects.find(
+    uxuiProjects.find(
       (p) => p.title.toLowerCase().replace(/\s+/g, "-") === projectName
     ) ||
     motionProjects.find(
@@ -133,15 +133,15 @@ const ProjectPage = () => {
                   ))}
               </div>
               {project.duration && (
-                      <>
-              <div class="mb-4 text-gray-500 dark:text-gray-400">
-                <label class="font-bold text-gray-900 dark:text-gray-200">
-                  Duration:
-                </label>
-                <br />
-                {project.duration}
-              </div>
-              </>
+                <>
+                  <div class="mb-4 text-gray-500 dark:text-gray-400">
+                    <label class="font-bold text-gray-900 dark:text-gray-200">
+                      Duration:
+                    </label>
+                    <br />
+                    {project.duration}
+                  </div>
+                </>
               )}
             </div>
           </div>
@@ -176,30 +176,37 @@ const ProjectPage = () => {
                         </section>
                       </>
                     )}
-                  
-    {content.credits && (
-      <section>
-        <div className="lg:max-w-3xl mx-auto w-full">
-          <p className="mb-6 text-gray-500 sm:text-xl dark:text-gray-400 text-pretty">
-            {content.credits.map((credit, creditsIndex) => (
-              <span key={creditsIndex}>
-                {credit.text}
-                {credit.link && (
-                  <span dangerouslySetInnerHTML={{ __html: credit.link }} />
-                )}
-              </span>
-            ))}
-          </p>
-        </div>
-      </section>
-    )}
- 
+
+                    {content.credits && (
+                      <section>
+                        <div className="lg:max-w-3xl mx-auto w-full">
+                          <p className="mb-6 text-gray-500 sm:text-xl dark:text-gray-400 text-pretty">
+                            {content.credits.map((credit, creditsIndex) => (
+                              <span key={creditsIndex}>
+                                {credit.text}
+                                {credit.link && (
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: credit.link,
+                                    }}
+                                  />
+                                )}
+                              </span>
+                            ))}
+                          </p>
+                        </div>
+                      </section>
+                    )}
 
                     {content.img && (
                       <>
                         <section>
                           <div className="lg:max-w-7xl mx-auto w-full lg:py-16 py-3">
-                            <img src={content.img} alt="" className="w-full border-[1px] border-slate-50 dark:border-slate-900/40 bg-slate-50 dark:bg-slate-900/60" />
+                            <img
+                              src={content.img}
+                              alt=""
+                              className="w-full border-[1px] border-slate-50 dark:border-slate-900/40 bg-slate-50 dark:bg-slate-900/60"
+                            />
                           </div>
                         </section>
                       </>
@@ -246,13 +253,9 @@ const ProjectPage = () => {
                         <section>
                           <div className="mr-auto w-full lg:max-w-screen-2xl py-3 lg:py-16 mx-auto">
                             <iframe
-                              src={
-                                content.figma +
-                                "%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26mode%3Ddesign&hide-ui=1"
-                              }
+                              src={content.figma}
                               allowfullscreen
                               class="w-full h-lvh border-2 border-slate-50 dark:border-slate-800"
-                              
                             ></iframe>
                             <h6 class="mt-4 text-gray-700  dark:text-gray-400 text-center ">
                               {content.caption}
@@ -279,14 +282,19 @@ const ProjectPage = () => {
                       </>
                     )}
 
-{content.vimeo && (
+                    {content.vimeo && (
                       <>
                         <section>
                           <div className="mr-auto w-full lg:max-w-screen-2xl py-3 lg:py-16 mx-auto">
                             <iframe
-                              src={content.vimeo + '&title=0&byline=0&portrait=0&sidedock=0'}
+                              src={
+                                content.vimeo +
+                                "&title=0&byline=0&portrait=0&sidedock=0"
+                              }
                               class="w-full aspect-video border-2 border-slate-50 dark:border-slate-800"
-                              frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                              frameborder="0"
+                              allow="autoplay; fullscreen; picture-in-picture"
+                              allowfullscreen
                             ></iframe>
                             <h6 class="mt-4  text-gray-700  dark:text-gray-400 text-center">
                               {content.caption}
@@ -295,18 +303,16 @@ const ProjectPage = () => {
                         </section>
                       </>
                     )}
-
-
                   </div>
                 ))}
             </article>
           </div>
         </div>
 
-        
-             <RecentProjects currentProject={`./${projectFolder}/${projectName}.js`}/>
-    
-        
+        <RecentProjects
+          currentProject={`./${projectFolder}/${projectName}.js`}
+        />
+
         <Footer />
       </div>
     </div>

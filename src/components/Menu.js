@@ -39,7 +39,6 @@ const Menu = ({ className }) => {
   const [theme, setTheme] = useState(
     localStorage.getItem("color-theme") || "light"
   );
-  var inputElements = document.querySelectorAll('input');
 
   useEffect(() => {
     if (theme === "dark") {
@@ -90,7 +89,7 @@ const Menu = ({ className }) => {
                 <>
                   <img
               className="size-16 w-auto brightness-0  transition-all duration-1000 ease-in-out invert"
-              src="../img/logo-matheusgomes.gif"
+              src="../img/logo-juliacristina.gif"
               alt=""
             />
                 </>
@@ -100,7 +99,7 @@ const Menu = ({ className }) => {
                 <>
                   <img
               className="size-16 w-auto transition-all duration-1000 ease-in-out dark:brightness-110 saturate-[.10]"
-              src="../img/logo-matheusgomes.gif"
+              src="../img/logo-juliacristina.gif"
               alt=""
             />
                 </>

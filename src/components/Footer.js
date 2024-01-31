@@ -16,7 +16,7 @@ export default function Footer() {
             <a href="/" class="flex items-center">
               <img
                 className="size-16 w-auto transition-all duration-1000 ease-in-out dark:brightness-110 saturate-[.10] me-2 mb-1"
-                src="../img/logo-matheusgomes.gif"
+                src="../img/logo-juliacristina.gif"
                 alt=""
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -59,13 +59,13 @@ export default function Footer() {
                 </h2>
                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
                   <li class="mb-4">
-                    <a href="https://be.net/matgoms" class="hover:underline ">
+                    <a href="https://be.net/juliaxtina" class="hover:underline ">
                       Behance
                     </a>
                   </li>
                   <li class="mb-4">
                     <a
-                      href="https://dribbble.com/matgoms"
+                      href="https://dribbble.com/juliaxtina"
                       class="hover:underline"
                     >
                       Dribbble
@@ -73,7 +73,7 @@ export default function Footer() {
                   </li>
                   <li class="mb-4">
                     <a
-                      href="https://instagram.com/matgoms"
+                      href="https://instagram.com/juliaxtina"
                       class="hover:underline"
                     >
                       Instagram
@@ -81,7 +81,7 @@ export default function Footer() {
                   </li>
                   <li class="">
                     <a
-                      href="https://linkedin.com/in/matgoms"
+                      href="https://linkedin.com/in/juliaxtina"
                       class="hover:underline "
                     >
                       Linkedin
@@ -97,11 +97,11 @@ export default function Footer() {
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4 ">
                   <a
-                    href="mailto:matgoms@gmail.com"
+                    href="juliacristinap.santos@gmail.com"
                     class="hover:underline cursor-pointer flex gap-2"
                   >
                     <EnvelopeIcon className="w-5" />
-                    matgoms@gmail.com
+                    juliaxtina@gmail.com
                   </a>
                 </li>
                 <li class="">
@@ -150,7 +150,7 @@ export default function Footer() {
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="http://linkedin.com/in/matgoms"
+              href="http://linkedin.com/in/juliaxtina"
               class="text-gray-600 dark:text-gray-400  hover:text-gray-900 hover:dark:text-white ms-2"
             >
               <svg
@@ -175,7 +175,7 @@ export default function Footer() {
               <span class="sr-only">LinkedIn</span>
             </a>
             <a
-              href="http://instagram.com/matgoms"
+              href="http://instagram.com/juliaxtina"
               class="text-gray-600 dark:text-gray-400  hover:text-gray-900 hover:dark:text-white ms-2"
             >
               <svg
@@ -198,7 +198,7 @@ export default function Footer() {
               <span class="sr-only">Instagram account</span>
             </a>
             <a
-              href="http://dribbble.com/matgoms"
+              href="http://dribbble.com/juliaxtina"
               class="text-gray-600 dark:text-gray-400  hover:text-gray-900 hover:dark:text-white ms-2"
             >
               <svg
@@ -222,7 +222,7 @@ export default function Footer() {
               <span class="sr-only">Dribbble account</span>
             </a>
             <a
-              href="http://be.net/matgoms"
+              href="http://be.net/juliaxtina"
               class="text-gray-600 dark:text-gray-400  hover:text-gray-900 hover:dark:text-white ms-2"
             >
               <svg
