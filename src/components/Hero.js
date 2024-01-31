@@ -25,11 +25,11 @@ export function HeroBig() {
     <section>
     <div class="grid gap-16 max-w-screen-xl px-4 py-16 mx-auto lg:grid lg:grid-cols-2 lg:py-24 lg:px-6">
         <div class="mr-auto place-self-center">
-            <h1 class="max-w-2xl my-6 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-gray-100">Welcome to my portfolio!</h1>
+            <h1 class="max-w-2xl my-6 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-8xl dark:text-gray-100">Oi eu sou a julia</h1>
           
-            <p class="max-w-2xl mb-6 mt-8 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-3xl dark:text-gray-400">I'm a 27-years-old photographer, adventurer, art enthusiast and designer. Hope you enjoy it.</p>
+            <p class="max-w-2xl mb-6 mt-8 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-3xl dark:text-gray-400">Aqui vai a descrição</p>
             <a href="/about" class="text-lg inline-flex items-center justify-center font-medium text-center text-dark dark:text-gray-400">
-            Discover more about me
+            o que quer saber?
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
            
