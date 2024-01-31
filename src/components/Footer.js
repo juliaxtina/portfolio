@@ -16,11 +16,11 @@ export default function Footer() {
             <a href="/" class="flex items-center">
               <img
                 className="size-16 w-auto transition-all duration-1000 ease-in-out dark:brightness-110 saturate-[.10] me-2 mb-1"
-                src="../img/logo-juliacristina.gif"
+                src="https://www.packit.eu/wp-content/uploads/2019/08/julia-logo-pms-5255-c.png"
                 alt=""
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Júlia Cristina
+                ®
               </span>
             </a>
           </div>
@@ -119,32 +119,6 @@ export default function Footer() {
         </div>
         <hr class="lg:mt-32 my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm inline-flex items-center text-gray-500 sm:text-center dark:text-gray-400">
-            Built by myself with{" "}
-            <svg
-              width="100%"
-              height="100%"
-              viewBox="-10.5 -9.45 21 18.9"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="text-sm ms-3 me-1 w-5 text-cyan-700  flex origin-center transition-all ease-in-out"
-            >
-              <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
-              <g stroke="currentColor" stroke-width="1" fill="none">
-                <ellipse rx="10" ry="4.5"></ellipse>
-                <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse>
-                <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse>
-              </g>
-            </svg>{" "}
-            React +
-            <img
-              className="h-5 w-auto ms-1 me-1"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />{" "}
-            Tailwind
-          </span>
-
           <span class="text-sm inline-flex items-center text-gray-500 sm:text-center dark:text-gray-400">
             © 2023 Júlia Cristina™. All Rights Reserved.
           </span>
