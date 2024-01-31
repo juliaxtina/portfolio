@@ -20,7 +20,7 @@ export default function Footer() {
                 alt=""
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Matheus Gomes
+                Júlia Cristina
               </span>
             </a>
           </div>
@@ -146,7 +146,7 @@ export default function Footer() {
           </span>
 
           <span class="text-sm inline-flex items-center text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023 Matheus Gomes™. All Rights Reserved.
+            © 2023 Júlia Cristina™. All Rights Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
             <a
