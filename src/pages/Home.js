@@ -19,10 +19,7 @@ export default function Home(){
     return(
         <div class="bg-white dark:bg-slate-800 *:transition-colors duration-1000 ease-in-out">
             <Menu />
-            <HeroBig/>
-            <Image2x photos={photos}/>
-            <Feature />
-            <Portfolio />
+            
             <Footer />
         </div>
     )
