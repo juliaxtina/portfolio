@@ -2,7 +2,7 @@ import Menu from "../components/Menu";
 import { HeroBig } from "../components/Hero";
 import Image2x from "../components/Image2x";
 import Feature from "../components/Feature";
-import Portfolio from "../components/Portfolio";
+import Content from "../components/Content";
 import Footer from "../components/Footer";
 
 export default function Home(){
@@ -12,7 +12,6 @@ export default function Home(){
         '../img/projects-preview/1.jpg',
         '../img/projects-preview/5.jpg',
         '../img/projects-preview/2.jpg',
-        '../img/projects-preview/6.jpg',
         '../img/projects-preview/3.jpg',
       ];
 
@@ -22,7 +21,7 @@ export default function Home(){
             <HeroBig/>
             <Image2x photos={photos}/>
             <Feature />
-            <Portfolio />
+            <Content />
             <Footer />
         </div>
     )

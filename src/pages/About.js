@@ -11,7 +11,7 @@ const About = () => {
     {
       title: "Get to know a little about me.",
       description:
-        "I have over 7 years of design experience working with leading companies and small businesses.",
+        "I have been working with design for four years and am enthusiastic about everything related to digital products and technology.",
       image: "../img/me.jpg",
     },
     /* { title: 'Title 2', description: 'Description 2' }, */
@@ -28,12 +28,10 @@ const About = () => {
               <div class="col-span-2">
                 
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                  As a creative enthusiast, I have always been dedicated to
-                  studying various artistic fields and visual communications. I
-                  have a strong ability to adapt, allowing me to tackle various
-                  situations effectively and find prompt, suitable solutions.
-                  Furthermore, through my professional experiences and studies I have learned to manage multiple tasks simultaneously and consistently excel by delivering
-                  high-quality work.
+                I was introduced to web design with only 12 years old and I was very fascinated about it. In my free time I liked to play around with themes from tumblr. I started to study for real after school and my insterest only grew since then. 
+                </p>
+                <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
+                I was always a very visual person, I also love to draw and do digital illustrations. You can see them at <a href="https://www.instagram.com/juliaxtina" class="hover:underline">Instagram</a>
                 </p>
               </div>
               <div class="">
@@ -87,31 +85,7 @@ const About = () => {
                       id="us"
                     ></span>
                   </div>
-                  <div class="group relative h-full cursor-pointer align-middle ">
-                    <div class="absolute invisible bottom-7 group-hover:visible w-max bg-slate-700 text-black px-4 mb-6 -ms-2 py-1.5 text-sm rounded-md">
-                      <p class=" leading-2 text-gray-200 pt-2 pb-2">
-                        {" "}
-                        Advanced
-                      </p>
-                      <svg
-                        class="absolute z-10  bottom-[-10px] "
-                        width="16"
-                        height="10"
-                        viewBox="0 0 16 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8 10L0 0L16 1.41326e-06L8 10Z"
-                          class="fill-slate-700"
-                        />
-                      </svg>
-                    </div>
-                    <span
-                      class="fi-fr rounded-md aspect-[4/3] w-8 inline-block bg-no-repeat"
-                      id="fr"
-                    ></span>
-                  </div>
+                  
                   <div class="group relative h-full cursor-pointer align-middle ">
                     <div class="absolute invisible bottom-7 group-hover:visible w-max bg-slate-700 text-black px-4 mb-6 -ms-2 py-1.5 text-sm rounded-md">
                       <p class=" leading-2 text-gray-200 pt-2 pb-2"> Basic</p>
@@ -169,79 +143,56 @@ const About = () => {
                   Work Experience
                 </h3>
 
-                <h5 class="font-bold mt-4">Designer</h5>
-                <p>Brand Connect</p>
+
+                <h5 class="font-bold mt-4">User Interface Designer</h5>
+                <p>Smarthis</p>
 
                 <h5 class="font-bold mt-4">UX/UI Designer</h5>
-                <p>Tesla</p>
+                <p>SuperOpa</p>
 
-                <h5 class="font-bold mt-4">Web Designer</h5>
-                <p>Link 9</p>
-
-                <h5 class="font-bold mt-4">Designer</h5>
-                <p>Brand Connect</p>
-
-                <h5 class="font-bold mt-4">Art Director</h5>
+                <h5 class="font-bold mt-4">Digital Designer</h5>
                 <p>Degrau Publicidade</p>
 
-                <h5 class="font-bold mt-4">UX/UI Designer</h5>
-                <p>Genera</p>
+                <h5 class="font-bold mt-4">Digital Designer</h5>
+                <p>Brand Connect</p>
 
-                <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                  Freelancer
-                </h3>
+                <h5 class="font-bold mt-4">Front-End Developer</h5>
+                <p>Groove Company</p>
 
-                <h5 class="font-bold mt-4">Photography and Audiovisual</h5>
               </div>
               <div class="">
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Barchelor Degree
                 </h3>
 
-                <h5 class="font-bold mt-4">Advertising and Marketing</h5>
-                <p>Anhembi Morumbi</p>
+                <h5 class="font-bold mt-4">Graphic Design</h5>
+                <p>Universidade Cidade de São Paulo</p>
 
-                <h3 class="mb-4 mt-8  text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                  Postgraduate
-                </h3>
-
-                <h5 class="font-bold mt-4">User Interface Design</h5>
-                <p>Centro Acadêmico Belas Artes</p>
 
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Professional courses
                 </h3>
 
-                <h5 class="font-bold mt-4">Administration</h5>
-                <p>Salesianas</p>
+                <h5 class="font-bold mt-4">Google UX Design </h5>
+                <p>Coursera</p>
+                <a href="https://www.coursera.org/account/accomplishments/professional-cert/X73BFG4TU7JR" class="hover:underline" target="_blank">Credential</a>
 
                 <h5 class="font-bold mt-4">Programming and Webdesign</h5>
-                <p>CENLEP</p>
+                <p>Etec de Praia Grande</p>
 
-                <h5 class="font-bold mt-4">English</h5>
-                <p>Academia Washington</p>
-
-                <h5 class="font-bold mt-4">Computer Graphics</h5>
-                <p>Universidade Cidade de São Paulo</p>
+                
               </div>
               <div class="">
-                <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                {/* <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Habilities
                 </h3>
                 <div class="flex justify-between">
                   <h5 class="font-bold mb-2">UX/UI</h5>
-                  <div>95%</div>
                 </div>
-                <div class="w-full bg-slate-200 rounded-full h-1.5 mb-6 dark:bg-slate-700">
-                  <div
-                    class="bg-cyan-500 h-1.5 rounded-full dark:bg-cyan-600"
-                    style={{ width: "95%" }}
-                  ></div>
-                </div>
+                
 
                 <div class="flex justify-between">
                   <h5 class="font-bold mb-2">Photography</h5>
-                  <div>90%</div>
                 </div>
                 <div class="w-full bg-slate-200 rounded-full h-1.5 mb-6 dark:bg-slate-700">
                   <div
@@ -252,7 +203,6 @@ const About = () => {
 
                 <div class="flex justify-between">
                   <h5 class="font-bold mb-2">Social Media</h5>
-                  <div>80%</div>
                 </div>
                 <div class="w-full bg-slate-200 rounded-full h-1.5 mb-6 dark:bg-slate-700">
                   <div
@@ -263,14 +213,13 @@ const About = () => {
 
                 <div class="flex justify-between">
                   <h5 class="font-bold mb-2">Video Editing / VFX / Motion</h5>
-                  <div>60%</div>
                 </div>
                 <div class="w-full bg-slate-200 rounded-full h-1.5 mb-6 dark:bg-slate-700">
                   <div
                     class="bg-cyan-500 h-1.5 rounded-full dark:bg-cyan-600"
                     style={{ width: "60%" }}
                   ></div>
-                </div>
+                </div> */}
 
                 <div>
                   <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -278,11 +227,10 @@ const About = () => {
                   </h3>
                   <ul class="flex flex-wrap *:text-sm gap-2 *:font-medium *:w-max *:rounded-full *:border *:text-gray-600 *:border-slate-600/20 *:bg-slate-100 *:px-2 *:py-0.5 *:dark:text-gray-400 dark:*:border-slate-400/20 dark:*:bg-slate-400/10 ">
                     <li>Analytics</li>
-                    <li>Back End</li>
                     <li>Design System</li>
                     <li>Design Thinking</li>
                     <li>Front End</li>
-                    <li>React</li>
+                    <li>Visual Design</li>
                   </ul>
                 </div>
                 <div>
@@ -296,8 +244,8 @@ const About = () => {
                     <li>Maze</li>
                     <li>Photoshop</li>
                     <li>Illustrator</li>
-                    <li>Sketch</li>
-                    <li>Hotjar</li>
+                    <li>Mouseflow</li>
+                    <li>After Effects</li>
                     <li>Notion</li>
                   </ul>
                 </div>

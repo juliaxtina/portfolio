@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from "../components/Menu";
 import { HeroSmall } from "../components/Hero";
-import Content from "../components/Content";
+import Content from "../components/Content-projects";
 import Footer from "../components/Footer";
 
 

@@ -39,7 +39,16 @@ export default function Content() {
     return projectData.default;
   });
 
+// Sort projects based on the 'year' property
+const sortedProjects = uxuiProjects.sort((a, b) => {
+  const yearA = parseInt(a.year, 10);
+  const yearB = parseInt(b.year, 10);
 
+  return yearB - yearA; // Sorting in descending order (newest first)
+});
+
+
+const limitedProjects = sortedProjects.slice(0, 4);
   const UXUI = ({ title, description, thumb, color, status }) => {
     return (
       <div className="mb-24 break-inside-avoid-column">
@@ -170,14 +179,14 @@ export default function Content() {
       <div class="max-w-screen-xl px-5 mx-auto">
         <div class=" ">
           <Tab.Group selectedIndex={activeTabIndex} onChange={handleTabChange}>
-            <Tab.List class="text-sm lg:text-md font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 flex flex-wrap -mb-px ">
+            <Tab.List class="text-sm lg:text-md font-medium text-center text-gray-500 border-gray-200 dark:text-gray-400 dark:border-gray-700 flex flex-wrap -mb-px ">
               {tabs.map((tab, index) => (
                 <>
-                  <Tab className={tab.classDefault}>UX/UI Design</Tab>
+                  {/* <Tab className={tab.classDefault}>UX/UI Design</Tab>
 
                   <Tab className={tab.classDefault}>Social media</Tab>
 
-                  <Tab className={tab.classDefault}>Motion/VFX</Tab>
+                  <Tab className={tab.classDefault}>Motion/VFX</Tab> */}
                 </>
               ))}
             </Tab.List>
@@ -185,7 +194,7 @@ export default function Content() {
               <Tab.Panel>
                 <>
                   <div class="flex flex-col">
-                    <div class="flex flex-wrap sm:flex-row flex-col py-24">
+                    <div class="flex flex-wrap sm:flex-row flex-col pb-24">
                       <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0 dark:text-gray-100">
                         UX/UI Projects
                       </h1>
@@ -195,7 +204,7 @@ export default function Content() {
                     </div>
                   </div>
                   <div class="columns-1 lg:columns-2 lg:gap-24">
-                    {uxuiProjects.map((project, index) => (
+                    {limitedProjects.map((project, index) => (
                       <Link
                         key={index}
                         to={`/projects/${project.title

@@ -119,31 +119,7 @@ const Menu = ({ className }) => {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
           <Popover className="relative ">
-            <Popover.Button className="flex items-center gap-x-1 text-lg focus:outline-none font-semibold leading-6 ">
-              {projectName && (
-                <>
-                  <p class="text-white">Works</p>
-                  <ChevronDownIcon
-                className="h-5 w-5 flex-none "
-                aria-hidden="true"
-              />
-                </>
-              )}
-
-              {!projectName && (
-                <>
-                  <p class="text-slate-900 dark:text-white hover:text-slate-700 dark:hover:text-slate-200">
-                    Works</p>
-                  
-                  <ChevronDownIcon
-                className="h-5 w-5 flex-none text-slate-900 dark:text-white hover:text-slate-700 dark:hover:text-slate-200"
-                aria-hidden="true"
-              />
-                </>
-              )}
-
-           
-            </Popover.Button>
+            
 
             <Transition
               as={Fragment}
@@ -197,7 +173,25 @@ const Menu = ({ className }) => {
               </Popover.Panel>
             </Transition>
           </Popover>
+          <a
+            href="/projects"
+            className="text-lg font-semibold leading-6  text-slate-900 dark:text-white hover:text-slate-700 dark:hover:text-slate-200"
+          >
+           {projectName && (
+                <>
+                  <p class="text-white">Projects</p>
+                                 </>
+              )}
 
+              {!projectName && (
+                <>
+                  <p class="text-slate-900 dark:text-white hover:text-slate-700 dark:hover:text-slate-200">
+                    Projects</p>
+                  
+                 
+                </>
+              )}
+          </a>
           <a
             href="/about"
             className="text-lg font-semibold leading-6  text-slate-900 dark:text-white hover:text-slate-700 dark:hover:text-slate-200"
@@ -217,6 +211,7 @@ const Menu = ({ className }) => {
                 </>
               )}
           </a>
+          
 
           <SunIcon
             className="h-6 w-6 cursor-pointer hidden dark:block dark:text-white"

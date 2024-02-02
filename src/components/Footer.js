@@ -46,11 +46,6 @@ export default function Footer() {
                       Design Projects
                     </a>
                   </li>
-                  <li class="">
-                    <a href="/photos" class="hover:underline">
-                      Photography
-                    </a>
-                  </li>
                 </ul>
               </div>
               <div class="mb-16 lg:mb-6">
