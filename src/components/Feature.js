@@ -9,7 +9,7 @@ export default function Feature() {
      <>
 
 <section>
-  <div class="px-4 py-24 mx-auto max-w-screen-xl sm:py-16 lg:px-6 lg:gap-8 xl:gap-0 lg:py-48">
+  <div class="px-4 py-16 mx-auto max-w-screen-xl sm:py-16 lg:px-8 lg:gap-8 xl:gap-0 lg:py-24">
       <div class="max-w-screen-md mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">What can I offer?</h2>
           <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-balance">

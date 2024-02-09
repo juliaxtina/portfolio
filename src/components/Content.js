@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Tab } from '@headlessui/react';
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
+import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
 export default function Content() {
   const socialContext = require.context("../projects/social", false, /\.js$/);
@@ -213,7 +214,9 @@ const limitedProjects = sortedProjects.slice(0, 4);
                       >
                         <UXUI key={index} {...project} />
                       </Link>
+                      
                     ))}
+                    
                   </div>
                 </>
               </Tab.Panel>
@@ -264,6 +267,18 @@ const limitedProjects = sortedProjects.slice(0, 4);
               </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
+            <div class="text-center">
+              <a
+                      class="inline-flex items-center py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-transparent rounded-full border border-slate-400 hover:bg-white focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-gray-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700 mx-auto"
+                      href="../projects"
+                      target="_blank">
+                      See more
+                      <ArrowRightIcon
+                        className="h-6 w-6 ms-2 "
+                        aria-hidden="true"
+                      />
+                    </a>
+            </div>
         </div>
       </div>
     </section>

@@ -238,7 +238,7 @@ const ProjectPage = () => {
                                   <img
                                     src={duo.imgDuo}
                                     alt=""
-                                    className="w-full border-[1px] border-slate-50 dark:border-slate-900/40 bg-slate-50 dark:bg-slate-900/60"
+                                    className="w-full lg:h-[550px] object-cover border-[1px] border-slate-50 dark:border-slate-900/40 bg-slate-50 dark:bg-slate-900/60"
                                   />
                                 </div>
                               </div>

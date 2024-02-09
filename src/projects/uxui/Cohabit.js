@@ -14,12 +14,12 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
     contents: [
       {
         //texto e descrição simples
-        title: "New Design System",
+        title: "The Challenge",
         description:
-          "Blending modern genetic concepts with user-friendly interfaces, this project ensures a cohesive visual identity and effortless user experience. The main goal of this design system is to simplify the communication of complex genealogical information, making interactive engagement smoother while elevating the company's brand presence in the genetics field.",
+          "Shared housing is a common practice worldwide for various reasons: financial situation, moving due to college, a job in a larger city, high rental prices, or simply wanting to save money. However, for most people, finding an ideal roommate can cost time and dedication.",
       },
   
-      {
+      /*{
         //texto com link
         credits: [
           {
@@ -29,36 +29,54 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
             link: '<a href="http://behance.net/julinha">clique aqui</a>', //não esqueça de colocar http://
           },
         ],
-      },
+      },*/
   
       {
         Duo: [
           //imagem em duas colunas
           {
             imgDuo:
-              "https://ecommerce.cdn.genera.com.br/uploads/2023/11/01-homeANCESTRALIDADE-600x400px_out23.png.webp",
+              "../img/photos/roomate.jpg",
           },
           {
             imgDuo:
-              "https://ecommerce.cdn.genera.com.br/uploads/2023/11/03-homeSAUDE-600x400px_out23.png.webp",
+            "../img/photos/roomate2.jpg",
           },
         ],
       },
+      {
+        //texto e descrição simples
+        title: "CSD Matrix",
+        description:
+          "Current news about rentals and shared housing was used as a basis to create the CSD Matrix.",
+      },
+      {
+        //texto e descrição simples
+        title: "Certainties",
+        description:
+          "• Rents are more expensive, especially in big cities.",
+      },
+      {
+      description:
+      "•People want to share housing to reduce expenses..",
+    },
+      
+      
   
+      {
+        //embed do Canva
+        title: "Canva",
+        description: "descrição do projeto no canva",
+        canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?utm_content=DAF8D-SZvL4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        caption: "(Click to interact)",
+      },
+
       {
         //embed do figma
         title: "Figma",
         description: "descrição do projeto no figma",
         figma: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F19JvWq1o5248YNm5m2Gy4f%2FDesign-System---Genera%3Ftype%3Ddesign%26node-id%3D118-3516%26t%3D0foJRkUZbG7MQN2m-1",
         caption: "legenda do figma",
-      },
-  
-      {
-        //embed do Canva
-        title: "Canva",
-        description: "descrição do projeto no canva",
-        canva: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F19JvWq1o5248YNm5m2Gy4f%2FDesign-System---Genera%3Ftype%3Ddesign%26node-id%3D118-3516%26t%3D0foJRkUZbG7MQN2m-1",
-        caption: "legenda do canva",
       },
   
       {
