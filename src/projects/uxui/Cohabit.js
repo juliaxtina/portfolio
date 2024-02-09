@@ -44,34 +44,18 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
           },
         ],
       },
-      {
-        //texto e descrição simples
-        title: "CSD Matrix",
-        description:
-          "Current news about rentals and shared housing was used as a basis to create the CSD Matrix.",
-      },
-      {
-        //texto e descrição simples
-        title: "Certainties",
-        description:
-          "• Rents are more expensive, especially in big cities.",
-      },
-      {
-      description:
-      "•People want to share housing to reduce expenses..",
-    },
+      
       
       
   
       {
         //embed do Canva
-        title: "Canva",
-        description: "descrição do projeto no canva",
+        
         canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?utm_content=DAF8D-SZvL4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         caption: "(Click to interact)",
       },
 
-      {
+     /* {
         //embed do figma
         title: "Figma",
         description: "descrição do projeto no figma",
@@ -79,12 +63,12 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
         caption: "legenda do figma",
       },
   
-      {
+      /*{
         //embed do vimeo
         vimeo: "https://player.vimeo.com/video/281909451?h=fdbdecd9de",
   
         caption: "legenda do vimeo",
-      },
+      },*/
   
       {
         //imagem tamanho padrão
