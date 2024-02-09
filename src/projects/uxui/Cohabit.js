@@ -69,15 +69,20 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
   
         caption: "legenda do vimeo",
       },*/
-  
+      {
+        //texto e descrição simples
+        title: "Final Screens",
+        description:
+          "The created solution is an application that connects people looking to share housing in a safe and efficient way. The platform allows users to filter by preferences such as gender, age, and hobbies to find compatible roommates. Users have the option to search directly for advertisements or search for people willing to share housing. The solution was developed based on data and information obtained through market research and interviews with potential users. The goal is to provide an effective and safe solution for people looking to share housing.",
+      },
       {
         //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/genera/amostra.png`
+        img: `${process.env.PUBLIC_URL}/img/genera/cohabit.png`
       },
   
       {
         //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/genera/amostra.png`
+        imgBig: `${process.env.PUBLIC_URL}/img/genera/cohabit-img.png`
       },
   
       // Adicione mais itens de conteúdo conforme necessário
