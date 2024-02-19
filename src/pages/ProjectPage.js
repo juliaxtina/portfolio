@@ -42,9 +42,7 @@ const ProjectPage = () => {
 
     const projectFolder = findProjectFolder(projectName);
     setProjectFolder(projectFolder);
-    console.log(
-      `O arquivo ${projectName} está localizado em: ${projectFolder}`
-    );
+
 
     // Scroll to the top when the component mounts or the projectName changes
     window.scrollTo(0, 0);

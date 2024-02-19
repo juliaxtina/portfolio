@@ -16,7 +16,7 @@ const RecentProjects = ({ currentProject }) => {
     (project) => !excludedProjects.includes(project) && project !== currentProject
   );
    
-
+  console.log(filteredFilePaths);
 
  // Import each project dynamically
  const recentProjects = filteredFilePaths.map((project) => {
