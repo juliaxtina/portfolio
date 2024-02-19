@@ -6,17 +6,10 @@ const importFirstProject = (context) => {
   return projectData.default;
 };
 
-// Importa o contexto para projetos sociais
-const socialContext = require.context("../projects/social", false, /\.js$/);
-const socialProject = importFirstProject(socialContext);
-
 // Use require.context para importar dinamicamente o primeiro arquivo da pasta 'uxui'
 const uxuiContext = require.context("../projects/uxui", false, /\.js$/);
 const uxuiProject = importFirstProject(uxuiContext);
 
-// Use require.context para importar dinamicamente o primeiro arquivo da pasta 'motion'
-const motionContext = require.context("../projects/motion-vfx", false, /\.js$/);
-const motionProject = importFirstProject(motionContext);
 
 export default function Portfolio() {
   return (
@@ -50,44 +43,9 @@ export default function Portfolio() {
                 </p>
               </div>
             </Link>
-            <Link
-              to={`/projects`} state={{category: "social" }}
-            >
-              <img
-                src={socialProject.image}
-                alt={socialProject.title}
-                class={`transition ease-in duration-300 hover:opacity-80 rounded-2xl w-full mb-2  aspect-[12/11]  object-cover object-center ${socialProject.color} outline-slate-300 dark:outline-slate-700 outline outline-1`}
-                alt="social media projects"
-              />
-              <div class="mb-24 break-inside-avoid-column">
-                <h3 class="my-6 text-xl font-bold dark:text-white">
-                  Social Media
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400 text-pretty">
-                  {socialProject.description}
-                </p>
-              </div>
-            </Link>
+         
 
-            <Link
-              to={`/projects`} state={{category: "motion" }}
-            >
-              <img
-                src={motionProject.thumb}
-                alt={motionProject.title}
-                class={`transition ease-in duration-300 hover:opacity-80  w-full mb-2 aspect-[12/11]  object-cover object-center ${motionProject.color}`}
-                alt="motion projects"
-              />
-              <div class="mb-24 break-inside-avoid-column">
-                <h3 class="my-6 text-xl font-bold dark:text-white">
-            Motion/VFX Projects
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400 text-pretty ">
-                  {motionProject.description}
-                </p>
-              </div>
-            </Link>
-            
+         
           </div>
         </div>
       </section>

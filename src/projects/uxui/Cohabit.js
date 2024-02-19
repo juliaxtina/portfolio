@@ -51,7 +51,7 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
       {
         //embed do Canva
         
-        canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?utm_content=DAF8D-SZvL4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?embed",
         caption: "(Click to interact)",
       },
 

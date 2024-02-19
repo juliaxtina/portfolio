@@ -1,26 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Menu from "../components/Menu";
-/* import { SocialProjects, UXUIProjects, MotionProjects } from '../components/Content'; // Import projects directly */
 import ImageFull from "../components/ImageFull";
 import Footer from "../components/Footer";
 import { LinkIcon } from "@heroicons/react/24/outline";
 import RecentProjects from "./recentprojects";
+import * as Icons from "@heroicons/react/24/outline";
 
 // Use require.context to dynamically import all files within './projects'
 const uxuiContext = require.context("../projects/uxui", false, /\.js$/);
-const motionContext = require.context("../projects/motion-vfx", false, /\.js$/);
 
 // Get an array of all project file paths
 const uxuiFilePaths = uxuiContext.keys();
-const motionFilePaths = motionContext.keys();
 
 // Import each project dynamically
 const uxuiProjects = uxuiFilePaths.map(
   (filePath) => uxuiContext(filePath).default
-);
-const motionProjects = motionFilePaths.map(
-  (filePath) => motionContext(filePath).default
 );
 
 const ProjectPage = () => {
@@ -37,14 +32,9 @@ const ProjectPage = () => {
       const isFoundInUxui = uxuiFilePaths.some((filePath) =>
         checkFilePath(filePath, projectName)
       );
-      const isFoundInMotionVfx = motionFilePaths.some((filePath) =>
-        checkFilePath(filePath, projectName)
-      );
 
       if (isFoundInUxui) {
         return "uxui";
-      } else if (isFoundInMotionVfx) {
-        return "motion-vfx";
       } else {
         return "Pasta não encontrada";
       }
@@ -61,13 +51,9 @@ const ProjectPage = () => {
   }, [projectName]);
 
   // Find the corresponding project based on the title (not an id)
-  const project =
-    uxuiProjects.find(
-      (p) => p.title.toLowerCase().replace(/\s+/g, "-") === projectName
-    ) ||
-    motionProjects.find(
-      (p) => p.title.toLowerCase().replace(/\s+/g, "-") === projectName
-    );
+  const project = uxuiProjects.find(
+    (p) => p.title.toLowerCase().replace(/\s+/g, "-") === projectName
+  );
 
   if (!project) {
     return <div>Project not found!</div>;
@@ -196,6 +182,41 @@ const ProjectPage = () => {
                           </p>
                         </div>
                       </section>
+                    )}
+
+                    {content.columns && (
+                      <>
+                        <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto flex flex-wrap lg:flex-nowrap gap-6 lg:gap-8 lg:py-16 py-3">
+                          {content.columns.map((column, columnIndex) => (
+                            <span
+                              key={columnIndex}
+                              class="d-block w-full bg-slate-100 py-4 px-6"
+                            >
+                              {column.icon &&
+                                (() => {
+                                  const IconComponent = Icons[column.icon];
+                                  return (
+                                    <p className="text-gray-400 text-sm my-2">
+                                      <IconComponent className="size-6 text-indigo-400" />
+                                    </p>
+                                  );
+                                })()}
+
+                              <p class="font-bold text-gray-600 my-2">
+                                {column.title}
+                              </p>
+                              <p class="text-gray-400 text-sm my-2">
+                                {column.text}
+                              </p>
+                              {column.aditional && (
+                                <p class="text-gray-400 text-sm my-2">
+                                  {column.aditional}
+                                </p>
+                              )}
+                            </span>
+                          ))}
+                        </div>
+                      </>
                     )}
 
                     {content.img && (
