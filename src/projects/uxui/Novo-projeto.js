@@ -3,7 +3,7 @@ const NovoProjeto = { //todo projeto é necessário mudar o nome do const
     title: "Novo projeto", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
     year: "2023",
     // link: "genera.com.br", //opcional 
-    color: "bg-red-500 dark:bg-red-300", //cores do projeto, só escolher no tailwind
+    color: "bg-sky-500 dark:bg-sky-300", //cores do projeto, só escolher no tailwind
    // image: `${process.env.PUBLIC_URL}/img/genera/teste-fundo.png`, //imagem de fundo do hero
     // thumb: `${process.env.PUBLIC_URL}/img/genera/Cover-teste.png`, //thumbnail
     description:
