@@ -2,7 +2,7 @@
 
 const TiltComponent = () => {
   return (
-    <img src="/img/genera/genera.jpg" alt="thumb hero"></img>
+    <img src="/img/photos/heroimg.png" alt="thumb hero"></img>
   );
 };
 
