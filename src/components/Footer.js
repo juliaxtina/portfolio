@@ -76,7 +76,7 @@ export default function Footer() {
                   </li>
                   <li class="">
                     <a
-                      href="https://linkedin.com/in/juliaxtina"
+                      href="https://linkedin.com/in/juliacristina"
                       class="hover:underline "
                     >
                       Linkedin
@@ -96,7 +96,7 @@ export default function Footer() {
                     class="hover:underline cursor-pointer flex gap-2"
                   >
                     <EnvelopeIcon className="w-5" />
-                    juliaxtina@gmail.com
+                    juliacristinap.santos@gmail.com
                   </a>
                 </li>
                 <li class="">
