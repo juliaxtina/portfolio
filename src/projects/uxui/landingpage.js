@@ -7,7 +7,7 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
     image: `${process.env.PUBLIC_URL}/img/photos/header-landing.jpg`, //imagem de fundo do hero
     thumb: `${process.env.PUBLIC_URL}/img/photos/cover-smarthis.png`, //thumbnail
     description:
-      "Cohabit is an application that connects people looking to share housing in a safe and efficient way.",
+      "Smarthis is a brazilian tech startup. My challenge was to create a intuitive landing page to showcase their solutions.",
     scope: "User Interface, User Experience",
     duration: "3 Months", //opcional
   

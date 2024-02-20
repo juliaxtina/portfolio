@@ -58,14 +58,7 @@ export default function Footer() {
                       Behance
                     </a>
                   </li>
-                  <li class="mb-4">
-                    <a
-                      href="https://dribbble.com/juliaxtina"
-                      class="hover:underline"
-                    >
-                      Dribbble
-                    </a>
-                  </li>
+                 
                   <li class="mb-4">
                     <a
                       href="https://instagram.com/juliaxtina"
@@ -119,7 +112,7 @@ export default function Footer() {
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="http://linkedin.com/in/juliaxtina"
+              href="http://linkedin.com/in/juliacristina"
               class="text-gray-600 dark:text-gray-400  hover:text-gray-900 hover:dark:text-white ms-2"
             >
               <svg
