@@ -4,8 +4,8 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
   year: "2023",
   // link: "genera.com.br", //opcional
   color: "bg-[#0098AC] dark:bg-[#1B6D78]", //cores do projeto, só escolher no tailwind
-  image: `${process.env.PUBLIC_URL}/img/genera/medilinker-hero.png`, //imagem de fundo do hero
-  thumb: `${process.env.PUBLIC_URL}/img/genera/cover-medilinker.jpg`, //thumbnail
+  image: `${process.env.PUBLIC_URL}/img/photos/medilinker-hero.png`, //imagem de fundo do hero
+  thumb: `${process.env.PUBLIC_URL}/img/photos/cover-medilinker.jpg`, //thumbnail
   description:
     "MediLinker is a service designed to assist individuals affected by medicine scarcity and difficulty in access. ",
   scope: "User Interface, User Experience",
@@ -54,11 +54,11 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
         //imagem em duas colunas
         {
           imgDuo:
-            "../img/genera/medilinker-img.png",
+            "../img/photos/medilinker-img1.jpg",
         },
         {
           imgDuo:
-            "../img/genera/medilinker-img2.png",
+            "../img/photos/medilinker-img2.jpg",
         },
       ],
     },
@@ -79,21 +79,24 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
   
     {
       //texto e descrição simples
-      title: "Telas finais",
+      title: "Final Screens",
     },
     {
       //imagem tamanho padrão
-      img: `${process.env.PUBLIC_URL}/img/photos/medilinker-Fonte.png`
-    },
-    {
-      //imagem tamanho padrão
-      img: `${process.env.PUBLIC_URL}/img/photos/medilinker-Final-2.png`
+      img: `${process.env.PUBLIC_URL}/img/photos/Wireframesmedi.jpg`
     },
     
-
+    {
+      //imagem tamanho padrão
+      img: `${process.env.PUBLIC_URL}/img/photos/id-medilinker.jpg`
+    },
+    {
+      img: `${process.env.PUBLIC_URL}/img/photos/medi-responsive.jpg`
+    },
+   
     {
       //imagem expandida
-      imgBig: `${process.env.PUBLIC_URL}/img/photos/medilinker-Final.jpg`
+      imgBig: `${process.env.PUBLIC_URL}/img/photos/expandedmedi.jpg`
     },
 
     // Adicione mais itens de conteúdo conforme necessário

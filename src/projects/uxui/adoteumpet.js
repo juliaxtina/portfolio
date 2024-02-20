@@ -4,8 +4,8 @@ const adoteumpet = { //todo projeto é necessário mudar o nome do const
     year: "2023",
     // link: "genera.com.br", //opcional 
     color: "bg-[#5BE584] dark:bg-[#1B806A]", //cores do projeto, só escolher no tailwind
-   image: `${process.env.PUBLIC_URL}/img/genera/cover-adoteumpet.png`, //imagem de fundo do hero
-   thumb: `${process.env.PUBLIC_URL}/img/genera/thumb-adote.png`, //thumbnail
+   image: `${process.env.PUBLIC_URL}/img/photos/cover-adote.jpg`, //imagem de fundo do hero
+   thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-pet.png`, //thumbnail
     description:
       "Novo projeto is an application that connects people looking to share housing in a safe and efficient way.",
     scope: "User Interface, User Experience",

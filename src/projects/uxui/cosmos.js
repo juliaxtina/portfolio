@@ -1,41 +1,67 @@
 const cosmos = { //todo projeto é necessário mudar o nome do const
   
     title: "Cosmos", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
-    year: "2023",
+    year: "2022",
     // link: "genera.com.br", //opcional 
     color: "bg-[#5BE584] dark:bg-[#1B806A]", //cores do projeto, só escolher no tailwind
-   image: `${process.env.PUBLIC_URL}/img/genera/cover-cosmos2.png`, //imagem de fundo do hero
-   thumb: `${process.env.PUBLIC_URL}/img/genera/Cover-cosmos.png`, //thumbnail
+   image: `${process.env.PUBLIC_URL}/img/photos/cover-cosmos.jpg`, //imagem de fundo do hero
+   thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-cosmos.jpg`, //thumbnail
     description:
-      "Novo projeto is an application that connects people looking to share housing in a safe and efficient way.",
-    scope: "User Interface, User Experience",
-    duration: "3 Months", //opcional
+      "Cosmos aims to assist social organizations through corporate volunteering.",
+    scope: "User Interface",
+    duration: "1 and 3 Months", //opcional
   
     contents: [
       {
         //texto e descrição simples
-        title: "The Challenge",
+        title: "The Product",
         description:
-          "Shared housing is a common practice worldwide for various reasons: financial situation, moving due to college, a job in a larger city, high rental prices, or simply wanting to save money. However, for most people, finding an ideal roommate can cost time and dedication.",
+          "Cosmos is a Social Startup that emerged in 2020 with a clear purpose: to strengthen Social Organizations through volunteer programs. Offering opportunities for committed individuals to make a difference while also enhancing the management and performance of social organizations.",
       },
-  
       {
-        columns: [
+        Duo: [
+          //imagem em duas colunas
           {
-            title: "Aqui vai o titulo da coluna 1",
-            text: "Aqui vai o texto da coluna 1",
-            aditional: "Outro texto se quiser",
+            imgDuo:
+              "../img/photos/Cosmosimg.jpg",
           },
           {
-            title: "Aqui vai o titulo da coluna 2",
-            text: "Aqui vai o texto da coluna 2",
-          },
-          {
-            icon: "ArrowDownIcon", //basta escolher o icone no site heroicons, e smp colocar o 'Icon' no final
-            title: "Aqui vai o titulo da coluna 3",
-            text: "Aqui vai o texto da coluna 3",
+            imgDuo:
+            "../img/photos/Cosmosimg2.jpg",
           },
         ],
+      },
+      {
+        //texto e descrição simples
+        title: "Visual Identity",
+      },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/IdCosmos.jpg`
+      },
+      {
+        //texto e descrição simples
+        title: "UI Kit",
+      },
+      {
+        //imagem tamanho padrão
+        imgBig: `${process.env.PUBLIC_URL}/img/photos/UiKitCosmos.jpg`
+      },
+      {
+        //texto e descrição simples
+        title: "Some Screens of the platform",
+      },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/ScreensCosmos.jpg`
+      },
+      {
+        //texto e descrição simples
+        title: "Landing Page",
+      },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/LandingCosmos.jpg`
       },
       
     

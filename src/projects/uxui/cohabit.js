@@ -4,8 +4,8 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
     year: "2023",
     // link: "genera.com.br", //opcional 
     color: "bg-[#2B3DA1] dark:bg-[#080E4D]", //cores do projeto, só escolher no tailwind
-    image: `${process.env.PUBLIC_URL}/img/genera/teste-fundo.png`, //imagem de fundo do hero
-    thumb: `${process.env.PUBLIC_URL}/img/genera/Cover-teste.png`, //thumbnail
+    image: `${process.env.PUBLIC_URL}/img/photos/teste-fundo.png`, //imagem de fundo do hero
+    thumb: `${process.env.PUBLIC_URL}/img/photos/cover-teste.png`, //thumbnail
     description:
       "Cohabit is an application that connects people looking to share housing in a safe and efficient way.",
     scope: "User Interface, User Experience",
@@ -96,15 +96,18 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
      
       {
         //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/genera/Wireframes Cohabit.jpg`
+        img: `${process.env.PUBLIC_URL}/img/photos/Wireframescohabit.jpg`
       },
+      
       {
         //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/genera/cohabit-img 1.jpg`
+        imgBig: `${process.env.PUBLIC_URL}/img/photos/idcohabit.jpg`
       },
-  
       // Adicione mais itens de conteúdo conforme necessário
-    
+      {
+        //imagem expandida
+        imgBig: `${process.env.PUBLIC_URL}/img/photos/cohabit-img.jpg`
+      },
     ],
   };
   
