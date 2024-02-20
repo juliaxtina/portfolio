@@ -2,6 +2,7 @@ import {
     CodeBracketIcon,
     CameraIcon,
     PaintBrushIcon,
+    VideoCameraIcon,
   } from '@heroicons/react/24/outline'
 
 export default function Feature() {
@@ -29,9 +30,15 @@ export default function Feature() {
               <CodeBracketIcon className="h-8 w-8" aria-hidden="true" />
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Visual Design</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance"> I can offer eye-catching visual design solutions that captivate and resonate a visually stunning presence that speaks for itself.</p>
+              <p class="text-gray-500 dark:text-gray-400 text-balance"> I can offer eye-catching visual design solutions.</p>
           </div>
-          
+          <div>
+              <div class="flex justify-center items-center mb-4 w-20 h-20 rounded-full lg:h-20 lg:w-20 bg-emerald-200">
+              <VideoCameraIcon className="h-8 w-8" aria-hidden="true" />
+              </div>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Motion Design</h3>
+              <p class="text-gray-500 dark:text-gray-400 text-balance"> Enhancing digital experiences through captivating animations and interactive visuals.</p>
+          </div>
          
          
          
