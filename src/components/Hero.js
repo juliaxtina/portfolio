@@ -27,7 +27,7 @@ export function HeroBig() {
         <div class="mr-auto place-self-center">
             <h1 class="max-w-2xl my-6 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl dark:text-gray-100">Welcome to my Portfolio!</h1>
           
-            <p class="max-w-2xl mb-6 mt-8 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">I'm a ux/ui designer and digital designer committed to resolving challenges and making intuitive and beautiful interfaces. </p>
+            <p class="max-w-2xl mb-6 mt-8 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">I'm a UX/UI Designer and Digital Designer committed to resolving challenges and making intuitive and beautiful interfaces. </p>
             <a href="/about" class="text-lg inline-flex items-center justify-center font-medium text-center text-indigo-600	 dark:text-gray-400">
             Get to know more about me
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
