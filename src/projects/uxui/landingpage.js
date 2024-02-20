@@ -1,11 +1,11 @@
 const landingpage = { //todo projeto é necessário mudar o nome do const
   
-    title: "Landing Page", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
+    title: "Smarthis - Landing Page", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
     year: "2023",
     // link: "genera.com.br", //opcional 
     color: "bg-[#212B36] dark:bg-[#292929]", //cores do projeto, só escolher no tailwind
-    image: `${process.env.PUBLIC_URL}/img/genera/header-landing.png`, //imagem de fundo do hero
-    thumb: `${process.env.PUBLIC_URL}/img/genera/cover-smarthis.png`, //thumbnail
+    image: `${process.env.PUBLIC_URL}/img/photos/header-landing.jpg`, //imagem de fundo do hero
+    thumb: `${process.env.PUBLIC_URL}/img/photos/cover-smarthis.png`, //thumbnail
     description:
       "Cohabit is an application that connects people looking to share housing in a safe and efficient way.",
     scope: "User Interface, User Experience",
@@ -16,7 +16,7 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
         //texto e descrição simples
         title: "The Challenge",
         description:
-          "Shared housing is a common practice worldwide for various reasons: financial situation, moving due to college, a job in a larger city, high rental prices, or simply wanting to save money. However, for most people, finding an ideal roommate can cost time and dedication.",
+          "Smarthis is a brazilian Tech Startup created to generate value through digital transformation, using the latest technological innovations to shape the organizations of the future. My challenge was to create a landing page presented in a intuitive way about what benefits the company could offer to the businness.",
       },
   
       /*{
@@ -69,20 +69,15 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
   
         caption: "legenda do vimeo",
       },*/
-      {
-        //texto e descrição simples
-        title: "Final Screens",
-        description:
-          "The created solution is an application that connects people looking to share housing in a safe and efficient way. The platform allows users to filter by preferences such as gender, age, and hobbies to find compatible roommates. Users have the option to search directly for advertisements or search for people willing to share housing. The solution was developed based on data and information obtained through market research and interviews with potential users. The goal is to provide an effective and safe solution for people looking to share housing.",
-      },
+      
        {
         //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/genera/id-landing.jpg`
+        img: `${process.env.PUBLIC_URL}/img/photos/id-landing.jpg`
       },
   
       {
         //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/genera/landing-page.jpg`
+        img: `${process.env.PUBLIC_URL}/img/photos/landing-page.jpg`
       },
   
       // Adicione mais itens de conteúdo conforme necessário
