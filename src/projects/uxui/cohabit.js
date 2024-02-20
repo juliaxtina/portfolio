@@ -18,7 +18,24 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
         description:
           "Shared housing is a common practice worldwide for various reasons: financial situation, moving due to college, a job in a larger city, high rental prices, or simply wanting to save money. However, for most people, finding an ideal roommate can cost time and dedication.",
       },
-  
+      /*{{
+        columns: [
+          {
+            title: "Aqui vai o titulo da coluna 1",
+            text: "Aqui vai o texto da coluna 1",
+            aditional: "Outro texto se quiser",
+          },
+          {
+            title: "Aqui vai o titulo da coluna 2",
+            text: "Aqui vai o texto da coluna 2",
+          },
+          {
+            icon: "ArrowDownIcon", //basta escolher o icone no site heroicons, e smp colocar o 'Icon' no final
+            title: "Aqui vai o titulo da coluna 3",
+            text: "Aqui vai o texto da coluna 3",
+          },
+        ],
+      },*/
       /*{
         //texto com link
         credits: [
