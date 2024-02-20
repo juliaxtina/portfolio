@@ -107,7 +107,7 @@ const limitedProjects = sortedProjects.slice(0, 4);
                   <div class="flex flex-col">
                     <div class="flex flex-wrap sm:flex-row flex-col pb-24">
                       <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0 dark:text-gray-100">
-                        UX/UI Projects
+                        Projects
                       </h1>
                       <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 dark:text-gray-400">
                       Explore a selection of design projects that showcase my skills and passion for design.
