@@ -226,7 +226,7 @@ const About = () => {
                     Skills
                   </h3>
                   <ul class="flex flex-wrap *:text-sm gap-2 *:font-medium *:w-max *:rounded-full *:border *:text-gray-600 *:border-slate-600/20 *:bg-slate-100 *:px-2 *:py-0.5 *:dark:text-gray-400 dark:*:border-slate-400/20 dark:*:bg-slate-400/10 ">
-                    <li>Analytics</li>
+                    <li>User Experience</li>
                     <li>Design System</li>
                     <li>Design Thinking</li>
                     <li>Front End</li>

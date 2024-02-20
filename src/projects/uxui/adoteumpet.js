@@ -7,7 +7,7 @@ const adoteumpet = { //todo projeto é necessário mudar o nome do const
    image: `${process.env.PUBLIC_URL}/img/photos/cover-adote.jpg`, //imagem de fundo do hero
    thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-pet.png`, //thumbnail
     description:
-      "Novo projeto is an application that connects people looking to share housing in a safe and efficient way.",
+      "Adote um Pet was a case study done for a UX Design course. Is about a platform that allows users/NGOs to register animals available for adoption. ",
     scope: "User Interface, User Experience",
     duration: "3 Months", //opcional
   
@@ -16,32 +16,42 @@ const adoteumpet = { //todo projeto é necessário mudar o nome do const
         //texto e descrição simples
         title: "The Challenge",
         description:
-          "Shared housing is a common practice worldwide for various reasons: financial situation, moving due to college, a job in a larger city, high rental prices, or simply wanting to save money. However, for most people, finding an ideal roommate can cost time and dedication.",
+          "Adote um Pet is a platform where non-governmental organizations (NGOs) and individuals can register animals for adoption. Users have the option to sign up and request an animal through a form and terms of responsibility",
       },
-  
       {
-        columns: [
+        Duo: [
+          //imagem em duas colunas
           {
-            title: "Aqui vai o titulo da coluna 1",
-            text: "Aqui vai o texto da coluna 1",
-            aditional: "Outro texto se quiser",
+            imgDuo:
+              "../img/photos/pet.jpg",
           },
           {
-            title: "Aqui vai o titulo da coluna 2",
-            text: "Aqui vai o texto da coluna 2",
-          },
-          {
-            icon: "ArrowDownIcon", //basta escolher o icone no site heroicons, e smp colocar o 'Icon' no final
-            title: "Aqui vai o titulo da coluna 3",
-            text: "Aqui vai o texto da coluna 3",
+            imgDuo:
+            "../img/photos/mobilecelpet.jpg",
           },
         ],
       },
       
-    
+      
+      {
+        //embed do figma
+        title: "Protótipo navegável",
+        //description: "Adote um pet",
+        figma: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpuMBVrTfQJopbRzZjcDR3f%2FONG%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D24-2%26viewport%3D-182%252C476%252C0.07%26t%3D6MMu5C1bYlPYluq2-1%26scaling%3Dscale-down%26starting-point-node-id%3D24%253A2%26show-proto-sidebar%3D1%26mode%3Ddesign",
+        caption: "(Clique para interagir)",
+      },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/IdPet.jpg`
+      },
+      {
+        //imagem tamanho padrão
+        imgBig: `${process.env.PUBLIC_URL}/img/photos/Screenspet.jpg`
+      },
     ],
   };
   
+
   
   export default adoteumpet;
   
