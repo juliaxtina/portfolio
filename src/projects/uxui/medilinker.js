@@ -93,7 +93,7 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
 
     {
       //imagem expandida
-      imgBig: `${process.env.PUBLIC_URL}/img/photos/medilinker-Final.png`
+      imgBig: `${process.env.PUBLIC_URL}/img/photos/medilinker-Final.jpg`
     },
 
     // Adicione mais itens de conteúdo conforme necessário

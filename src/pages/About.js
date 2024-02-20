@@ -28,7 +28,7 @@ const About = () => {
               <div class="col-span-2">
                 
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                I was introduced to web design with only 12 years old and I was very fascinated about it. In my free time I liked to play around with themes from tumblr. I started to study for real after school and my insterest only grew since then. 
+                I was introduced to web design with only 12 years old and I was very fascinated about it. In my free time I liked to play around with themes from tumblr. I started to study for real after school and my interest only grew since then. 
                 </p>
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
                 I was always a very visual person, I also love to draw and do digital illustrations. You can see them at <a href="https://www.instagram.com/juliaxtina" class="hover:underline">Instagram</a>
@@ -125,7 +125,7 @@ const About = () => {
 
                 <a
                   class="inline-flex items-center py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-transparent rounded-full border border-slate-200 hover:bg-white focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-gray-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700"
-                  href="../pdf/CV - Matheus Gomes.pdf"
+                  href="../pdf/CV julia.pdf"
                   target="_blank" onClick={()=>gaEventTracker('curriculo')}
                   download
                 >

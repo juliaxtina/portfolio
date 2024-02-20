@@ -24,8 +24,7 @@ export default function Contact() {
               </h2>
 
               <p class="mb-6  font-light text-balance text-gray-500 dark:text-gray-400 text-xl">
-                Starting a new project? Interested in a quote? Need more
-                information about something? Let me know.
+                Starting a new project? 
               </p>
 
               <a
@@ -35,7 +34,7 @@ export default function Contact() {
                 download
               >
                 <EnvelopeIcon className="h-6 w-6 me-2 " aria-hidden="true" />
-                juliaxtina@gmail.com
+                juliacristinap.santos@gmail.com
               </a>
 
               <Form />

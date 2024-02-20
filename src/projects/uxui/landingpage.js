@@ -77,12 +77,12 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
       },
        {
         //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/genera/id-landing.png`
+        img: `${process.env.PUBLIC_URL}/img/genera/id-landing.jpg`
       },
   
       {
         //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/genera/landing-page.png`
+        imgBig: `${process.env.PUBLIC_URL}/img/genera/landing-page.jpg`
       },
   
       // Adicione mais itens de conteúdo conforme necessário
