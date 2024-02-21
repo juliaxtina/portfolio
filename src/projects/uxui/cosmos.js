@@ -9,7 +9,7 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
     description:
       "Cosmos aims to assist social organizations through corporate volunteering.",
     scope: "User Interface",
-    duration: "1 and 3 Months", //opcional
+    duration: "1 year and 3 Months", //opcional
   
     contents: [
       {
@@ -53,7 +53,15 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
       },
       {
         //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/photos/ScreensCosmos.jpg`
+        img: `${process.env.PUBLIC_URL}/img/photos/ScreenCosmos1.jpg`
+      },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/ScreenCosmos2.jpg`
+      },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/ScreenCosmos3.jpg`
       },
       {
         //texto e descrição simples
