@@ -8,8 +8,8 @@ const motion = { //todo projeto é necessário mudar o nome do const
     thumb: `${process.env.PUBLIC_URL}/img/photos/Cena38.gif`, //thumbnail
     description:
       "Some examples of vector animation I did for videos.",
-    scope: "User Interface, User Experience",
-    duration: "3 Months", //opcional
+    scope: "Motion Design",
+    duration: "1 Month", //opcional
   
     contents: [
   
