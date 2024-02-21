@@ -6,20 +6,14 @@ import Photos from "./pages/Photos";
 import About from "./pages/About";
 import Contact from './pages/Contact';
 import ProjectPage from './pages/ProjectPage';
-import RecentProjects from './pages/recentprojects';
 
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-RHDB6EHHSC"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+import { GoogleAnalytics } from "./components/google-analytics";
 
 export default function App(){
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname + window.location.search);
-      }, []);
     return(
         <div>
+            <GoogleAnalytics />
             <BrowserRouter>
-            
             <Routes>
                 <Route index element={<Home/>}/>
                 <Route path="/" element={<Home/>}/>

@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { Fragment, useState } from "react";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
+import { Dialog, Popover, Transition } from "@headlessui/react";
 import { useParams } from "react-router-dom";
+import { trackGAEvent } from "./google-analytics";
 import {
   Bars3Icon,
   CameraIcon,
@@ -10,7 +11,6 @@ import {
   SunIcon,
   MoonIcon,
 } from "@heroicons/react/24/outline";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 const products = [
   {
     name: "Design",
@@ -33,6 +33,9 @@ const products = [
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
+}
+function handleSubmit(category, action, label) {
+  trackGAEvent(category, action, label);
 }
 
 const Menu = ({ className }) => {
@@ -84,13 +87,13 @@ const Menu = ({ className }) => {
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Júlia Pantaleão</span>
             {projectName && (
                 <>
                   <img
               className="size-16 w-auto  transition-all duration-1000 ease-in-out"
               src="/img/photos/flaticonlogo.png"
-              alt=""
+              alt="" onClick={() => handleSubmit("Menu", "menu-logo", "button-home")}
             />
                 </>
               )}
@@ -99,7 +102,7 @@ const Menu = ({ className }) => {
                 <>
                   <img
               className="size-16 w-auto transition-all duration-1000 ease-in-out dark:brightness-110 "
-              src="/img/photos/flaticonlogo.png"
+              src="/img/photos/flaticonlogo.png" onClick={() => handleSubmit("Menu", "menu-logo", "button-home")}
               alt=""
             />
                 </>
@@ -274,10 +277,10 @@ const Menu = ({ className }) => {
             ) : null}
 
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Júlia Pantaleão</span>
               <img
                 className="h-8 w-auto"
-                src="https://file.notion.so/f/f/f1314468-b02f-4479-8519-6ba35456bba4/62bbfb77-8e25-41ec-98b5-49c015427c0d/37467fe0-7d55-438b-9d5a-ac473ea4bbc9.jfif"
+                src="/img/photos/flaticonlogo.png"
                 alt=""
               />
             </a>

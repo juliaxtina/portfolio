@@ -1,13 +1,10 @@
-import {
-  EnvelopeIcon,
-  CameraIcon,
-  PaintBrushIcon,
-  XMarkIcon,
-  SunIcon,
-  MoonIcon,
-} from "@heroicons/react/24/outline";
+import {  EnvelopeIcon, } from "@heroicons/react/24/outline";
+import { trackGAEvent } from "./google-analytics";
 
 export default function Footer() {
+  function handleSubmit(category, action, label) {
+    trackGAEvent(category, action, label);
+  }
   return (
     <footer class="bg-white dark:bg-slate-900 transition-colors duration-1000 ease-in-out">
       <div class="mx-auto max-w-7xl px-6 2xl:px-0 py-16 lg:pt-24">
@@ -108,12 +105,13 @@ export default function Footer() {
         <hr class="lg:mt-32 my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm inline-flex items-center text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023 Júlia Cristina™. All Rights Reserved.
+            © 2023 Júlia Pantaleão™. All Rights Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
             <a
               href="http://linkedin.com/in/juliacristina"
               class="text-gray-600 dark:text-gray-400  hover:text-gray-900 hover:dark:text-white ms-2"
+              onClick={() => handleSubmit("Footer", `social-linkedin`, "social-icon")}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
