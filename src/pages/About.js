@@ -3,10 +3,17 @@ import { HeroSmall } from "../components/Hero";
 import Footer from "../components/Footer";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
-import useAnalyticsEventTracker from "../components/useAnalyticsEventTracker";
+import { useEffect } from "react";
+import { trackGAEvent } from "../components/google-analytics";
 
 const About = () => {
-  const gaEventTracker = useAnalyticsEventTracker('About me');
+  useEffect(() => {
+    document.title =  'Julia Pantaleão - About me';
+  }, []);
+  
+  function handleSubmit(category, action, label) {
+    trackGAEvent(category, action, label);
+  }
   const HeroSmallTitle = [
     {
       title: "Get to know a little about me.",
@@ -111,7 +118,7 @@ const About = () => {
                 </div>
 
                 <p class="lg:text-lg leading-relaxed font-medium my-6 dark:text-gray-400">
-                  Júlia Cristina
+                  Júlia Pantaleão
                   <br />
                   <a
                     href="mailto:juliacristinap.santos@gmail.com"
@@ -126,7 +133,7 @@ const About = () => {
                 <a
                   class="inline-flex items-center py-2.5 px-5 me-2 text-sm font-medium text-gray-900 focus:outline-none bg-transparent rounded-full border border-slate-200 hover:bg-white focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-slate-800 dark:text-gray-400 dark:border-slate-600 dark:hover:text-white dark:hover:bg-slate-700"
                   href="../pdf/CV julia.pdf"
-                  target="_blank" onClick={()=>gaEventTracker('curriculo')}
+                  target="_blank" onClick={() => handleSubmit("About", "cv-download", "button-cv")}
                   download
                 >
                   Download my CV
