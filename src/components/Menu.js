@@ -88,8 +88,8 @@ const Menu = ({ className }) => {
             {projectName && (
                 <>
                   <img
-              className="size-16 w-auto brightness-0  transition-all duration-1000 ease-in-out invert"
-              src="https://www.packit.eu/wp-content/uploads/2019/08/julia-logo-pms-5255-c.png"
+              className="size-16 w-auto  transition-all duration-1000 ease-in-out"
+              src="/img/photos/flaticonlogo.png"
               alt=""
             />
                 </>
@@ -98,8 +98,8 @@ const Menu = ({ className }) => {
               {!projectName && (
                 <>
                   <img
-              className="size-16 w-auto transition-all duration-1000 ease-in-out dark:brightness-110 saturate-[.10] dark:invert"
-              src="https://www.packit.eu/wp-content/uploads/2019/08/julia-logo-pms-5255-c.png"
+              className="size-16 w-auto transition-all duration-1000 ease-in-out dark:brightness-110 "
+              src="/img/photos/flaticonlogo.png"
               alt=""
             />
                 </>
