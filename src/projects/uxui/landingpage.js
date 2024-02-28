@@ -53,14 +53,15 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
           "For the visual identity, I adhered to the company's color palette but focused on a more subdued design than they are accustomed to using, thus attempting to convey more seriousness. I used photos of people to humanize and bring closer to the target user.",
         },
         {
+          //imagem tamanho padrão
+          img: `${process.env.PUBLIC_URL}/img/photos/id-landing.jpg`
+        },
+        {
           title: "Development",
           description:
             "The development was done by myself on the RD Station platform. The layout is implemented in a low-code manner, but not everything can be achieved through the platform, (such as carrossels and boxes) therefore, some parts need to be implemented using code (HTML, CSS, JS).",
           },
-       {
-        //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/photos/id-landing.jpg`
-      },
+       
   
       {
         title:"Final Screen",
