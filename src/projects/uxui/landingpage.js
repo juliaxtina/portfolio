@@ -68,6 +68,15 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
         //imagem expandida
         img: `${process.env.PUBLIC_URL}/img/photos/landing-page.jpg`
       },
+      {
+        //imagem expandida
+        img: `${process.env.PUBLIC_URL}/img/photos/landing-page2.jpg`
+      },
+      {
+        //imagem expandida
+        img: `${process.env.PUBLIC_URL}/img/photos/landing-page3.jpg`
+      },
+  
   
       {
         title: "Results",
