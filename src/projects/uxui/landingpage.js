@@ -40,7 +40,7 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
         {
           title: "A/B Test",
           description:
-            "An A/B test was conducted to determine which type of layout would generate higher user engagement, with the first (A) having the form as the last section, and the second (B) having the form as the last section. The difference was: a 317% conversion rate in the first option (A).",
+            "An A/B test was conducted to determine which type of layout would generate higher user engagement, with the first (A) having the form as the last section, and the second (B) having the form as the first section. The difference was: a 317% conversion rate in the first option (A).",
           },
           {
             //imagem tamanho padrão
