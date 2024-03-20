@@ -2,7 +2,7 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
   
     title: "Cosmos", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
     year: "2022",
-    // link: "genera.com.br", //opcional 
+     link: "cosmossocial.com.br", //opcional 
     color: "bg-[#5BE584] dark:bg-[#1B806A]", //cores do projeto, só escolher no tailwind
    image: `${process.env.PUBLIC_URL}/img/photos/cover-cosmos.jpg`, //imagem de fundo do hero
    thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-cosmos.jpg`, //thumbnail
