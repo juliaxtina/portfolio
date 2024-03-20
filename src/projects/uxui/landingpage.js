@@ -24,7 +24,7 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
         description:
           "The objective of the landing page was to promote one of the services that Smarthis offers in order to reach new leads.",
       },
-      {
+      /*{
         //texto e descrição simples
         title: "The Process",
         description:
@@ -33,7 +33,7 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
       {
         //imagem tamanho padrão
         img: `${process.env.PUBLIC_URL}/img/photos/lift.jpg`
-      },
+      },*/
      
       
       
@@ -54,7 +54,7 @@ const landingpage = { //todo projeto é necessário mudar o nome do const
         },
         {
           //imagem tamanho padrão
-          img: `${process.env.PUBLIC_URL}/img/photos/id-landing.jpg`
+          imgBig: `${process.env.PUBLIC_URL}/img/photos/id-landing.jpg`
         },
         {
           title: "Development",
