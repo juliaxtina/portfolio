@@ -3,7 +3,7 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
     title: "Cosmos", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
     year: "2022",
      link: "cosmossocial.com.br", //opcional 
-    color: "bg-[#5BE584] dark:bg-[#1B806A]", //cores do projeto, só escolher no tailwind
+    color: "bg-[#7A40D3] dark:bg-[#22255D]", //cores do projeto, só escolher no tailwind
    image: `${process.env.PUBLIC_URL}/img/photos/cover-cosmos.jpg`, //imagem de fundo do hero
    thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-cosmos.jpg`, //thumbnail
     description:
@@ -51,7 +51,7 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
         //texto e descrição simples
         title: "Some Screens of the platform",
       },
-      {
+     /* {
         //imagem tamanho padrão
         img: `${process.env.PUBLIC_URL}/img/photos/ScreenCosmos1.jpg`
       },
@@ -62,14 +62,24 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
       {
         //imagem tamanho padrão
         img: `${process.env.PUBLIC_URL}/img/photos/ScreenCosmos3.jpg`
+      },*/
+      {
+        //imagem tamanho padrão
+        imgBig: `${process.env.PUBLIC_URL}/img/photos/cosmospages.png`
       },
       {
         //texto e descrição simples
         title: "Landing Page",
       },
-      {
+      /* {
         //imagem tamanho padrão
         img: `${process.env.PUBLIC_URL}/img/photos/LandingCosmos.jpg`
+      },*/
+      {
+        //embed do vimeo
+        vimeo: "https://player.vimeo.com/video/927807546?",
+  
+        caption: "click to play",
       },
       
     
