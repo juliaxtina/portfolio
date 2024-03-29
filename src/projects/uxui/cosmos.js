@@ -79,7 +79,7 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
         //embed do vimeo
         vimeo: "https://player.vimeo.com/video/927807546?",
   
-        caption: "click to play",
+        caption: "click to playyyyy",
       },
       
     
