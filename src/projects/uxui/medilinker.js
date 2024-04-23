@@ -79,11 +79,15 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
   
     {
       //texto e descrição simples
-      title: "Final Screens",
+      title: "Wireframes",
     },
     {
       //imagem tamanho padrão
       img: `${process.env.PUBLIC_URL}/img/photos/Wireframesmedi.jpg`
+    },
+    {
+      //texto e descrição simples
+      title: "Final Screens",
     },
     
     {
