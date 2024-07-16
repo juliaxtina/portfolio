@@ -108,6 +108,22 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
         //imagem expandida
         imgBig: `${process.env.PUBLIC_URL}/img/photos/cohabit-img.jpg`
       },
+
+      {
+        //texto e descrição simples
+        title: "Conclusion",
+        description:
+          "In this case study, I explored design methodologies to solve problems. During the process, I conducted an analysis of the needs of potential users and the market, resulting in an interface that prioritizes usability.
+          
+      },
+      {
+        description: "Although the application was not implemented, the main proposed solutions aim to address the pain points identified in the initial research:"
+      },
+
+      {
+        description:    
+         "Increase in user satisfaction: Enhancing the chances of profile compatibility for users; Improvement in the user journey: By consolidating previous actions in one place, with the possibility of customization.",
+      },
     ],
   };
   
