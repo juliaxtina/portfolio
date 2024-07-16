@@ -84,7 +84,7 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
       {
         //texto e descrição simples
         title: "Conclusion",
-        description: "Neste projeto, utilizei meus conhecimentos em design de interfaces para entregar uma plataforma e telas que são intuitivas e modernas. Desenvolvi protótipos de alta fidelidade, incorporando elementos interativos, boas práticas de usabilidade, heurísticas e técnicas de gamificação para melhorar a interação do usuário com a plataforma. Além disso, colaborei na criação de um UI Kit para uma integração eficiente com a equipe de desenvolvimento.",
+        description: "In this project, I leveraged my expertise in interface design to deliver an intuitive and modern platform. I developed high-fidelity prototypes, incorporating interactive elements, usability best practices, heuristics, and gamification techniques to enhance user interaction with the platform. Additionally, I collaborated in creating a UI Kit for seamless integration with the development team.",
       },
     
     ],
