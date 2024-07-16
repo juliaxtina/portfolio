@@ -81,7 +81,11 @@ const cosmos = { //todo projeto é necessário mudar o nome do const
   
         caption: "Click to play",
       },
-      
+      {
+        //texto e descrição simples
+        title: "Conclusion",
+        description: "Neste projeto, utilizei meus conhecimentos em design de interfaces para entregar uma plataforma e telas que são intuitivas e modernas. Desenvolvi protótipos de alta fidelidade, incorporando elementos interativos, boas práticas de usabilidade, heurísticas e técnicas de gamificação para melhorar a interação do usuário com a plataforma. Além disso, colaborei na criação de um UI Kit para uma integração eficiente com a equipe de desenvolvimento.",
+      },
     
     ],
   };

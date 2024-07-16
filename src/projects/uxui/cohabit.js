@@ -113,7 +113,7 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
         //texto e descrição simples
         title: "Conclusion",
         description:
-          "In this case study, I explored design methodologies to solve problems. During the process, I conducted an analysis of the needs of potential users and the market, resulting in an interface that prioritizes usability.
+          "In this case study, I explored design methodologies to solve problems. During the process, I conducted an analysis of the needs of potential users and the market, resulting in an interface that prioritizes usability."
           
       },
       {
