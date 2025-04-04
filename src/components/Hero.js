@@ -2,11 +2,15 @@ export function HeroBig() {
   return (
    <>
     <section>
-    <div class="grid gap-16 max-w-screen-xl px-4 py-16 mx-auto lg:grid lg:grid-cols-2 lg:py-24 lg:px-6">
+    <div class="grid gap-40 max-w-screen-xl px-4 py-16 mx-auto lg:grid lg:grid-cols-2 lg:py-24 lg:px-6">
         <div class="mr-auto place-self-center">
-            <h1 class="max-w-2xl my-6 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl dark:text-gray-100">Welcome to my Portfolio!</h1>
+            <h1 class="max-w-2xl my-6 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl dark:text-gray-100">Júlia Pantaleão</h1>
           
-            <p class="max-w-2xl mb-6 mt-8 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">I'm a UX/UI Designer and Digital Designer committed to resolving challenges and making intuitive and beautiful interfaces. </p>
+            <div class="flex gap-x-4 text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400 font-body mt-8 mb-6">
+            <span>🎨</span><p>UX/UI Designer</p>
+            <span>📍</span><p>São Paulo</p>
+          </div>
+            
             <a href="/about" class="text-lg inline-flex items-center justify-center font-medium text-center text-indigo-600	 dark:text-gray-400">
             Get to know more about me
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -14,8 +18,8 @@ export function HeroBig() {
            
         </div>
                   
-         <div class="lg:grid w-4/5 h-4/5 m-auto mt-8 hidden">
-         <img src="/img/photos/heroimg.png" alt="thumb hero"/>
+         <div class="lg:grid w-4/5 h-4/5 mt-8 hidden justify-end">
+         <img src="/img/photos/profile.jpg" alt="thumb hero" className="rounded-xl mt-4 max-w-xs object-cover"/>
             
         </div>
     </div>
@@ -35,7 +39,7 @@ const Title = ({ title, description, image }) => (
           {title}
         </dt>
         <dd className="max-w-2xl mb-6 mt-6 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400 text-balance">
-          {description}
+        <em>{description}</em>
         </dd>
       </div>
     )}

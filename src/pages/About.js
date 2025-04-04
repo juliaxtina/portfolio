@@ -16,10 +16,10 @@ const About = () => {
   }
   const HeroSmallTitle = [
     {
-      title: "Get to know a little about me.",
+      title: "About me",
       description:
-        "I have been working with design for four years and am enthusiastic about everything related to digital products and technology.",
-      image: "../img/me.jpg",
+        "A glimpse into my design journey.",
+      image: "../img/photos/profile.jpg",
     },
     /* { title: 'Title 2', description: 'Description 2' }, */
     // Add more items as needed
@@ -35,11 +35,20 @@ const About = () => {
               <div class="col-span-2">
                 
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                I was introduced to web design with only 12 years old and I was very fascinated about it. In my free time I liked to play around with themes from tumblr. I started to study for real after school and my interest only grew since then. 
-                </p>
-                <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                I was always a very visual person, I also love to draw and do digital illustrations. You can see them at <a href="https://www.instagram.com/juliaxtina" class="hover:underline">Instagram</a>
-                </p>
+                Hi! My name is Júlia, and I'm a designer who started playing around with web design when I was just 12 years old (yes, back in the days when we spent hours customizing Tumblr with glitter, gifs, tons of copied code from the internet, and endless questions on StackOverflow forums).
+</p>
+<p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
+After high school, I enrolled in a technical course in IT, where I learned how to build a website from scratch — from HTML to JavaScript. That’s when I really started to understand what happens “behind the curtain” and fell in love with this world. But over time, I realized that while I enjoyed making things work, what truly fascinated me was thinking about how things looked, behaved, and connected with people.
+</p>
+<p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
+I’ve always been a very visual person — one of those kids who’s been doodling in the corners of notebooks since forever (and still does). After the course, I started studying design more seriously, diving into everything related to visual creation and digital experiences. In addition to UX/UI, I’m also passionate about digital illustration — if you're curious about that side of me, feel free to check out my work on <a href="https://instagram.com/juliaxtina" >Instagram.</a>
+</p>
+<p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
+Today, I work on creating meaningful experiences, designing interfaces that tell stories, make people’s lives easier, and turn navigation into something smooth and elegant.
+
+If you also believe that design is about connecting people, I think we’re already on the same page. ✨
+</p>
+          
               </div>
               <div class="">
                 {/* linguas */}
@@ -142,14 +151,23 @@ const About = () => {
                     aria-hidden="true"
                   />
                 </a>
+                <div class="">
+                {/* linguas */}
+                <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                  My space 💻</h3>
+                  <img src={`${process.env.PUBLIC_URL}/img/photos/desktop.jpeg`} alt="Workspace" className="rounded-xl mt-4" />
               </div>
+              
+                </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3  mt-8 lg:gap-24 dark:text-gray-400">
+            <div class="grid grid-cols-1 md:grid-cols-3  mt-24 lg:gap-24 dark:text-gray-400">
               <div class="">
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Work Experience
                 </h3>
 
+                <h5 class="font-bold mt-4">UX/UI Desifner</h5>
+                <p>Opea Capital</p>
 
                 <h5 class="font-bold mt-4">User Interface Designer</h5>
                 <p>Smarthis</p>

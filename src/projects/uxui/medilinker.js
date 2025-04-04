@@ -135,7 +135,7 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
     {
       //texto e descrição simples
       title: "Thank you for following my work!",
-      description: "Thank you for taking the time to follow my work on the MediLinker app! If you enjoyed it and would like to see more of my work, my links are provided below: Email: juliacristinap.santos@gmail.com"
+      description: "Thankyou for taking the time to follow my work on the MediLinker app! If you enjoyed it and would like to see more of my work, my links are provided below: Email: juliacristinap.santos@gmail.com"
     },
   ],
 };

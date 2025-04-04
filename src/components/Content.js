@@ -110,7 +110,7 @@ const limitedProjects = sortedProjects.slice(0, 4);
                         Projects
                       </h1>
                       <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 dark:text-gray-400">
-                      Explore a selection of design projects that showcase my skills and passion for design.
+                      
                       </p>
                     </div>
                   </div>

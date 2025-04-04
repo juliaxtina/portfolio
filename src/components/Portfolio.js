@@ -21,7 +21,7 @@ export default function Portfolio() {
               What have I been working on lately?
             </h2>
             <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-balance">
-            In a nutshell, my recent projects reflect a blend of creativity, technical expertise, and a passion for creating meaningful and impactful design experiences across various domains. Here are some of them:
+            
             </p>
           </div>
           <div class="columns-1 lg:columns-3 lg:gap-24">
@@ -32,7 +32,7 @@ export default function Portfolio() {
                 src={uxuiProject.thumb}
                 alt={uxuiProject.title}
                 class={`transition ease-in duration-300 hover:opacity-80  w-full mb-2 object-cover  aspect-[12/11] object-left ${uxuiProject.color}`}
-                alt="ux/ui projects"
+                
               />
               <div class="break-inside-avoid-column">
                 <h3 class="my-6 text-xl font-bold dark:text-white">
