@@ -65,19 +65,19 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
       
       
   
-      {
+       /* {
         //embed do Canva
         
         canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?embed",
         caption: "(Click to interact)",
       },
-
-     /* {
+*/
+      {
         //embed do figma
         title: "Figma",
         description: "descrição do projeto no figma",
-        figma: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F19JvWq1o5248YNm5m2Gy4f%2FDesign-System---Genera%3Ftype%3Ddesign%26node-id%3D118-3516%26t%3D0foJRkUZbG7MQN2m-1",
-        caption: "legenda do figma",
+        figma: "https://www.figma.com/proto/vuW5FiU3iBlAXJXI67ukK5/Case?page-id=20%3A3&node-id=336-92526&p=f&viewport=1064%2C364%2C0.16&t=VheoCVFVZqkQT3Z2-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=336%3A92522",
+        caption: "Clique para interagir",
       },
   
       /*{
@@ -93,17 +93,21 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
           "The created solution is an application that connects people looking to share housing in a safe and efficient way. The platform allows users to filter by preferences such as gender, age, and hobbies to find compatible roommates. Users have the option to search directly for advertisements or search for people willing to share housing. The solution was developed based on data and information obtained through market research and interviews with potential users. The goal is to provide an effective and safe solution for people looking to share housing.",
       },
       
-     
-      {
-        //imagem tamanho padrão
-        img: `${process.env.PUBLIC_URL}/img/photos/Wireframescohabit.jpg`
-      },
-      
-      {
+     {
         //imagem expandida
         imgBig: `${process.env.PUBLIC_URL}/img/photos/idcohabit.jpg`
       },
+      {
+        //imagem tamanho padrão
+        img: `${process.env.PUBLIC_URL}/img/photos/dispcohabit.jpg`
+      },
+      
+      
       // Adicione mais itens de conteúdo conforme necessário
+      {
+        //imagem expandida
+        imgBig: `${process.env.PUBLIC_URL}/img/photos/appcohabit.jpg`
+      },
       {
         //imagem expandida
         imgBig: `${process.env.PUBLIC_URL}/img/photos/cohabit-img.jpg`
