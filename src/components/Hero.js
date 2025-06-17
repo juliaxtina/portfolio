@@ -4,11 +4,11 @@ export function HeroBig() {
     <section>
     <div class="grid gap-40 max-w-screen-xl px-4 py-16 mx-auto lg:grid lg:grid-cols-2 lg:py-24 lg:px-6">
         <div class="mr-auto place-self-center">
-            <h1 class="max-w-2xl my-6 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl dark:text-gray-100">Júlia Pantaleão</h1>
+           <h1 class="max-w-2xl my-6 text-5xl italic font-medium tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-gray-100">Where ideas become experiences that truly connect</h1>
           
             <div class="flex gap-x-4 text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400 font-body mt-8 mb-6">
-            <span>🎨</span><p>UX/UI Designer</p>
-            <span>📍</span><p>São Paulo</p>
+           
+            <p>Hey I'm Júlia, a UX/UI Designer helping brands turn ideas into functional and bold visual stories.</p>
           </div>
             
             <a href="/about" class="text-lg inline-flex items-center justify-center font-medium text-center text-indigo-600	 dark:text-gray-400">
@@ -19,7 +19,7 @@ export function HeroBig() {
         </div>
                   
          <div class="lg:grid w-4/5 h-4/5 mt-8 hidden justify-end">
-         <img src="/img/photos/profile.jpg" alt="thumb hero" className="rounded-xl mt-4 max-w-xs object-cover"/>
+         <img src="/img/photos/hero-img.png" alt="thumb hero" className="rounded-xl mt-4 max-w-lg object-cover"/>
             
         </div>
     </div>
