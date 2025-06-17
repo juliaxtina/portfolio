@@ -110,7 +110,7 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
       },
  {
         //embed do figma
-        title: "Protótipo em alta fidelidade",
+        title: "High-fidelity prototype",
         
         figma: "https://embed.figma.com/proto/vuW5FiU3iBlAXJXI67ukK5/Case?page-id=20%3A3&node-id=336-92526&p=f&viewport=1064%2C364%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=336%3A92522&embed-host=share",
         caption: "Clique para interagir",

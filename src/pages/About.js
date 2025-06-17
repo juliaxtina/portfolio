@@ -166,7 +166,7 @@ If you also believe that design is about connecting people, I think we’re alre
                   Work Experience
                 </h3>
 
-                <h5 class="font-bold mt-4">UX/UI Desifner</h5>
+                <h5 class="font-bold mt-4">UX/UI Designer</h5>
                 <p>Opea Capital</p>
 
                 <h5 class="font-bold mt-4">User Interface Designer</h5>
