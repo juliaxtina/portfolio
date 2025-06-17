@@ -99,7 +99,7 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
         title: "High-fidelity prototype",
         
         figma: "https://embed.figma.com/proto/puMBVrTfQJopbRzZjcDR3f/ONG?page-id=90%3A5143&node-id=95-6085&viewport=773%2C-547%2C0.27&scaling=scale-down&content-scaling=fixed&starting-point-node-id=95%3A6085&embed-host=share",
-        caption: "Clique para interagir",
+        caption: "Click to interact",
       },
     // Adicione mais itens de conteúdo conforme necessário
     {
