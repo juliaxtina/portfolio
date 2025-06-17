@@ -14,6 +14,9 @@ input{
   color-scheme: var(--color-scheme-background);
 }
 
+img {
+  @apply rounded-lg;
+}
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';

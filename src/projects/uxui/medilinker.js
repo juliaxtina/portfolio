@@ -71,20 +71,13 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
       caption: "legenda do figma",
     },*/
 
-    {
+   /* {
       //embed do Canva
       canva: "https://www.canva.com/design/DAF80TOOVQI/o69MGB5jIlJDi2Ob5Kwiug/view?embed",
-    },
+    },*/
 
   
-    {
-      //texto e descrição simples
-      title: "Wireframes",
-    },
-    {
-      //imagem tamanho padrão
-      img: `${process.env.PUBLIC_URL}/img/photos/Wireframesmedi.jpg`
-    },
+    
     {
       //texto e descrição simples
       title: "Final Screens",
@@ -97,12 +90,17 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
     {
       img: `${process.env.PUBLIC_URL}/img/photos/medi-responsive.jpg`
     },
-   
-    {
-      //imagem expandida
-      imgBig: `${process.env.PUBLIC_URL}/img/photos/expandedmedi.jpg`
+   {
+      imgBig: `${process.env.PUBLIC_URL}/img/photos/medifinal.jpg`
     },
-
+    
+{
+        //embed do figma
+        title: "Protótipo em alta fidelidade",
+        
+        figma: "https://embed.figma.com/proto/puMBVrTfQJopbRzZjcDR3f/ONG?page-id=90%3A5143&node-id=95-6085&viewport=773%2C-547%2C0.27&scaling=scale-down&content-scaling=fixed&starting-point-node-id=95%3A6085&embed-host=share",
+        caption: "Clique para interagir",
+      },
     // Adicione mais itens de conteúdo conforme necessário
     {
       //texto e descrição simples

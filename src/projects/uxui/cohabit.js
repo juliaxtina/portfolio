@@ -72,13 +72,7 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
         caption: "(Click to interact)",
       },
 */
-      {
-        //embed do figma
-        title: "Figma",
-        description: "descrição do projeto no figma",
-        figma: "https://www.figma.com/proto/vuW5FiU3iBlAXJXI67ukK5/Case?page-id=20%3A3&node-id=336-92526&p=f&viewport=1064%2C364%2C0.16&t=VheoCVFVZqkQT3Z2-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=336%3A92522",
-        caption: "Clique para interagir",
-      },
+      
   
       /*{
         //embed do vimeo
@@ -88,14 +82,18 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
       },*/
       {
         //texto e descrição simples
-        title: "Final Screens",
+        title: "The Solution",
         description:
           "The created solution is an application that connects people looking to share housing in a safe and efficient way. The platform allows users to filter by preferences such as gender, age, and hobbies to find compatible roommates. Users have the option to search directly for advertisements or search for people willing to share housing. The solution was developed based on data and information obtained through market research and interviews with potential users. The goal is to provide an effective and safe solution for people looking to share housing.",
       },
       
      {
         //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/photos/idcohabit.jpg`
+        img: `${process.env.PUBLIC_URL}/img/photos/idcohabit.jpg`
+      },
+       {
+        //imagem expandida
+        img: `${process.env.PUBLIC_URL}/img/photos/appcohabit.jpg`
       },
       {
         //imagem tamanho padrão
@@ -104,15 +102,19 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
       
       
       // Adicione mais itens de conteúdo conforme necessário
-      {
-        //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/photos/appcohabit.jpg`
-      },
-      {
-        //imagem expandida
-        imgBig: `${process.env.PUBLIC_URL}/img/photos/cohabit-img.jpg`
-      },
+    
 
+      {
+        //imagem expandida
+        img: `${process.env.PUBLIC_URL}/img/photos/cohabit-img.jpg`
+      },
+ {
+        //embed do figma
+        title: "Protótipo em alta fidelidade",
+        
+        figma: "https://embed.figma.com/proto/vuW5FiU3iBlAXJXI67ukK5/Case?page-id=20%3A3&node-id=336-92526&p=f&viewport=1064%2C364%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=336%3A92522&embed-host=share",
+        caption: "Clique para interagir",
+      },
       {
         //texto e descrição simples
         title: "Conclusion",
