@@ -2,7 +2,7 @@ import {
     CodeBracketIcon,
     CameraIcon,
     PaintBrushIcon,
-    VideoCameraIcon,
+    Squares2X2Icon,
   } from '@heroicons/react/24/outline'
 
 export default function Feature() {
@@ -32,10 +32,10 @@ export default function Feature() {
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-20 h-20 rounded-full lg:h-20 lg:w-20 bg-indigo-400">
-              <VideoCameraIcon className="h-8 w-8" aria-hidden="true" />
+              <Squares2X2Icon className="h-8 w-8" aria-hidden="true" />
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Motion Design</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance"> Bring ideas to life through movement</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Design System</h3>
+              <p class="text-gray-500 dark:text-gray-400 text-balance"> Save time with easy to use components</p>
           </div>
          
          
