@@ -35,13 +35,13 @@ const About = () => {
               <div class="col-span-2">
                 
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                Hi! My name is Júlia, and I'm a designer who started playing around with web design when I was just 12 years old (yes, back in the days when we spent hours customizing Tumblr with glitter, gifs, tons of copied code from the internet, and endless questions on StackOverflow forums).
+                Hi! My name is Júlia, and I'm a designer who started playing around with web design when I was just 12 years old (yes, back in the days when we spent hours customizing Tumblr with glitter, gifs, tons of copied code from StackOverflow forums).
 </p>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-After high school, I enrolled in a technical course in IT, where I learned how to build a website from scratch — from HTML to JavaScript. That’s when I really started to understand what happens “behind the curtain” and fell in love with this world. But over time, I realized that while I enjoyed making things work, what truly fascinated me was thinking about how things looked, behaved, and connected with people.
+After high school, I enrolled in a technical course in IT, where I learned how to build a website from scratch — from HTML to JavaScript. That’s when I really started to understand what happens “behind the curtain” and fell in love with this world. But over time, I realized that while I enjoyed making things work, what truly interested me was thinking about how things looked, behaved, and connected with people.
 </p>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-I’ve always been a very visual person — one of those kids who’s been doodling in the corners of notebooks since forever (and still does). After the course, I started studying design more seriously, diving into everything related to visual creation and digital experiences. In addition to UX/UI, I’m also passionate about digital illustration — if you're curious about that side of me, feel free to check out my work on <a href="https://instagram.com/juliaxtina" >Instagram.</a>
+I’ve always been a very visual person, one of those kids who’s been doodling in the corners of notebooks since forever (and still does). After the course, I started studying design more seriously, diving into everything related to visual creation and digital experiences. In addition to UX/UI, I’m also passionate about digital illustration — feel free to check out my work on <a href="https://instagram.com/juliaxtina" class="underline">Instagram.</a>
 </p>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
 Today, I work on creating meaningful experiences, designing interfaces that tell stories, make people’s lives easier, and turn navigation into something smooth and elegant.
