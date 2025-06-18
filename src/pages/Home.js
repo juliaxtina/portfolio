@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 export default function Home(){
 
     const photos = [
-        '../img/projects-preview/4.jpg',
         '../img/projects-preview/1.jpg',
 
         '../img/projects-preview/2.jpg',
