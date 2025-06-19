@@ -196,7 +196,7 @@ const RedesignShopee = { //todo projeto é necessário mudar o nome do const
     },
         {
             description:
-          "The frictionless payment method selection, combined with a clear order summary before checkout and the ability to edit any step, ensures a smooth experience, while the post-purchase timeline keeps users informed and in control.",
+          "The frictionless payment method selection, combined with a clear order summary before checkout and the ability to edit any step, ensures a controled experience, while the post-purchase timeline keeps users informed.",
         },
         
       
