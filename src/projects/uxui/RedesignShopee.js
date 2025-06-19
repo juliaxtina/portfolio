@@ -7,7 +7,7 @@ const RedesignShopee = { //todo projeto é necessário mudar o nome do const
     image: `${process.env.PUBLIC_URL}/img/photos/Cover-Shopee.jpg`, //imagem de fundo do hero
     thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-shopee.png`, //thumbnail
     description:
-      "Shopee checkout redesign: a smoother shopping experience tailored to Brazilian users.",
+      "Simplifying Shopee’s checkout with a clear multi-step flow and an improved interface to make buying easier and more enjoyable.",
     scope: "User Interface, User Experience",
     duration: "3 Months", //opcional
   
