@@ -9,6 +9,7 @@ const RedesignShopee = { //todo projeto é necessário mudar o nome do const
     description:
       "Simplifying Shopee’s checkout with a clear multi-step flow and an improved interface to make buying easier and more enjoyable.",
     scope: "User Interface, User Experience",
+    type: "Case Study",
     duration: "3 Months", //opcional
   
     contents: [

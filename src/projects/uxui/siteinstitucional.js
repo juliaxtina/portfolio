@@ -10,7 +10,7 @@ const siteinstitucional = { //todo projeto é necessário mudar o nome do const
       "A fresh look for an automation company's website: more modern and strategic.",
     scope: "User Interface, User Experience",
     duration: "6 Months", //opcional
-  
+    type: "Company Project",
     contents: [
       {
         //texto e descrição simples

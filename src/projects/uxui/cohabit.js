@@ -10,7 +10,7 @@ const Cohabit = { //todo projeto é necessário mudar o nome do const
       "Cohabit is an application that connects people looking to share housing in a safe and efficient way.",
     scope: "User Interface, User Experience",
     duration: "3 Months", //opcional
-  
+    type: "Case Study",
     contents: [
       {
         //texto e descrição simples

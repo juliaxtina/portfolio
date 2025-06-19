@@ -10,7 +10,7 @@ const Medilinker = { //todo projeto é necessário mudar o nome do const
     "MediLinker is a service designed to assist individuals affected by medicine scarcity and difficulty in access. ",
   scope: "User Interface, User Experience",
   duration: "3 Months", //opcional
-
+type: "Case Study",
   contents: [
     {
       //texto e descrição simples

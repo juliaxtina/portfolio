@@ -115,7 +115,24 @@ const ProjectPage = () => {
                       {/* Use trim to remove any leading or trailing whitespace */}
                     </span>
                   ))}
+                  
               </div>
+              <div class="mb-4 text-gray-500 dark:text-gray-400">
+                <label class="font-bold text-gray-900 dark:text-gray-200">
+                  Type:
+                </label>
+                <br />
+              {project.type &&
+                  project.type.split(",").map((type, index) => (
+                    <span
+                      key={index}
+                      className="flex flex-wrap gap-2 w-max rounded-full bg-gray-50 text-gray-800 my-2 px-2.5 py-0.5   dark:bg-gray-700 dark:text-gray-200"
+                    >
+                      {type.trim()}{" "}
+                      {/* Use trim to remove any leading or trailing whitespace */}
+                    </span>
+                  ))}
+                  </div>
               {project.duration && (
                 <>
                   <div class="mb-4 text-gray-500 dark:text-gray-400">
