@@ -138,13 +138,20 @@ const ProjectPage = () => {
               {project.contents &&
                 project.contents.map((content, index) => (
                   <div key={index}>
+                  
                     {content.title && (
                       <>
                         <section>
-                          <div className="lg:max-w-3xl mx-auto w-full">
+                          <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto">
                             <h2 className="mt-16 mb-6 text-2xl font-bold text-gray-900 dark:text-white">
                               {content.title}
                             </h2>
+                            {/* Novo subtitle logo abaixo do título */}
+                          {content.subtitle && (
+                            <h3 className="mb-6 text-lg font-bold text-[#2B3DA1] dark:text-[#2B3DA1]">
+                              {content.subtitle}
+                            </h3>
+                          )}
                           </div>
                         </section>
                       </>
@@ -152,18 +159,41 @@ const ProjectPage = () => {
                     {content.description && (
                       <>
                         <section>
-                          <div className="lg:max-w-3xl mx-auto w-full ">
-                            <p className="mb-6 text-gray-500 sm:text-xl dark:text-gray-400 text-pretty">
+                          <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto ">
+                            <p className="mb-6 text-gray-600 sm:text-xl dark:text-gray-400 text-pretty">
                               {content.description}
+                              
                             </p>
                           </div>
                         </section>
                       </>
+                      
                     )}
+                    
+                    {content.quote && (
+                        <section>
+                          <div className="lg:max-w-3xl mx-auto w-full">
+                            <blockquote className="my-6 text-center">
+                              <span className="text-indigo-600 dark:text-indigo-400 text-5xl leading-none mr-2">“</span>
+                              <span className="italic text-gray-600 dark:text-gray-300 text-xl sm:text-3xl">
+                                {content.quote}
+                              </span>
+                              <span className="text-indigo-600 dark:text-indigo-400 text-5xl leading-none ml-2">”</span>
+                              {content.author && (
+                                <footer className="text-sm not-italic text-gray-500 dark:text-gray-400 mt-2">
+                                  — {content.author}
+                                </footer>
+                              )}
+                            </blockquote>
+                          </div>
+                        </section>
+                      )}
 
+                  
+                  
                     {content.credits && (
                       <section>
-                        <div className="lg:max-w-3xl mx-auto w-full">
+                        <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto">
                           <p className="mb-6 text-gray-500 sm:text-xl dark:text-gray-400 text-pretty">
                             {content.credits.map((credit, creditsIndex) => (
                               <span key={creditsIndex}>
@@ -184,26 +214,34 @@ const ProjectPage = () => {
 
                     {content.columns && (
                       <>
-                        <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto flex flex-wrap lg:flex-nowrap gap-6 lg:gap-8 lg:py-16 py-3">
+                        <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto flex flex-wrap lg:flex-nowrap gap-6 lg:gap-8 lg:py-8 py-3">
                           {content.columns.map((column, columnIndex) => (
                             <span
                               key={columnIndex}
-                              class="d-block w-full bg-slate-100 py-4 px-6"
+                              class="d-block w-full bg-slate-100/80 py-4 px-6 rounded-lg"
                             >
                               {column.icon &&
                                 (() => {
                                   const IconComponent = Icons[column.icon];
                                   return (
                                     <p className="text-gray-400 text-sm my-2">
-                                      <IconComponent className="size-6 text-indigo-400" />
+                                      <IconComponent className="size-6 text-[#2B3DA1]" />
                                     </p>
                                   );
                                 })()}
 
-                              <p class="font-bold text-gray-600 my-2">
+                                <p class="font-bold text-[#2B3DA1] my-2">
                                 {column.title}
+                              
+                              {/* Se existir bigNumber, mostra com estilo maior */}
+                              {column.bigNumber && (
+                                <p className="text-5xl font-extrabold text-[#2B3DA1] my-2">
+                                  {column.bigNumber}
+                                </p>
+                              )}
+                                
                               </p>
-                              <p class="text-gray-400 text-sm my-2">
+                              <p class="text-gray-800 text-sm my-2">
                                 {column.text}
                               </p>
                               {column.aditional && (
@@ -212,10 +250,92 @@ const ProjectPage = () => {
                                 </p>
                               )}
                             </span>
+                            
                           ))}
                         </div>
                       </>
                     )}
+ {/* Inline columns */}
+{content.inlineColumns && (
+  <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto flex flex-wrap gap-6 lg:gap-16 py-8 justify-center">
+    {content.inlineColumns.map((column, columnIndex) => (
+      <div
+        key={columnIndex}
+        className="w-full lg:w-auto flex-1 min-w-[240px] max-w-md"
+      >
+         {/* Número grande */}
+        {column.bigNumber && (
+          <p className="text-4xl font-extrabold text-[#2B3DA1] mb-2">
+            {column.bigNumber}
+          </p>
+        )}
+        {/* Ícone */}
+        {column.icon &&
+          (() => {
+            const IconComponent = Icons[column.icon];
+            return (
+              <p className="text-gray-400 text-sm mb-2">
+                <IconComponent className="size-6 text-[#2B3DA1]" />
+              </p>
+            );
+          })()}
+{column.description && (
+                      <>
+                        <section>
+                          <div className="w-full px-6 lg:px-0 lg:max-w-7xl mx-auto ">
+                            <p className="mb-6 text-gray-600 sm:text-xl dark:text-gray-400 text-pretty">
+                              {column.description}
+                              
+                            </p>
+                          </div>
+                        </section>
+                      </>
+                      
+                    )}
+        {/* Imagem */}
+        {column.img && (
+          <img
+            src={column.img}
+            alt={column.title || ""}
+            className="mb-4 w-full object-cover rounded-md border border-slate-200 dark:border-slate-700"
+          />
+        )}
+
+        {/* Título */}
+        <p className="font-bold text-[#2B3DA1] mb-2">{column.title}</p>
+
+       
+
+        {/* Texto descritivo */}
+        {column.text && (
+          <p className="text-gray-800 dark:text-gray-200 text-sm mb-2">
+            {column.text}
+          </p>
+        )}
+
+        {/* Texto adicional */}
+        {column.aditional && (
+          <p className="text-gray-400 text-sm mb-2">{column.aditional}</p>
+        )}
+
+        {/* Citação */}
+        {column.quote && (
+          <blockquote className="italic text-center text-gray-600 dark:text-gray-300 text-base sm:text-lg mt-4 relative">
+            <span className="text-indigo-600 dark:text-indigo-400 text-4xl leading-none mr-1">“</span>
+            {column.quote}
+            <span className="text-indigo-600 dark:text-indigo-400 text-4xl leading-none ml-1">”</span>
+            {column.author && (
+              <footer className="text-xs not-italic text-gray-500 dark:text-gray-400 mt-1">
+                — {column.author}
+              </footer>
+            )}
+          </blockquote>
+        )}
+      </div>
+    ))}
+  </div>
+)}
+
 
                     {content.img && (
                       <>
@@ -254,6 +374,12 @@ const ProjectPage = () => {
                                 className="grid max-w-screen-2xl mx-auto lg:py-16 py-3"
                               >
                                 <div className="mr-auto place-self-center w-full">
+                                  {/* TÍTULO DA IMAGEM */}
+                                  {duo.title && (
+                                    <h3 className="mb-4 text-xl font-semibold text-gray-900 dark:text-white text-left">
+                                      {duo.title}
+                                    </h3>
+                                  )}
                                   <img
                                     src={duo.imgDuo}
                                     alt=""
