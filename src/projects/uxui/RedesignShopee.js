@@ -257,9 +257,14 @@ const RedesignShopee = { //todo projeto é necessário mudar o nome do const
 {
   title: "Conclusion",
           description:
-            "By adjusting the structure and visuals of Shopee’s checkout flow, we made the experience more fluid, user-friendly, and culturally aligned with Brazilian users. This redesign shows how adapting a global product to local needs can improve clarity, trust, and user satisfaction.",
+            "By adjusting the structure and visuals of Shopee’s checkout flow, we made the experience more fluid, user-friendly, and culturally aligned with Brazilian users. This redesign shows how adapting a global product to users needs can improve clarity, trust, and user satisfaction.",
+            
         },
-
+        {
+        description:
+            "This was the final project for the Advanced UX/UI Design course at CoderHouse, a 50-hour program over 13 weeks. CoderHouse is an online school committed to providing high-quality, accessible education across Latin America."
+            ,
+        }
 
     ],
   };
