@@ -247,12 +247,12 @@ const ProjectPage = () => {
                                   );
                                 })()}
 
-                                <p class="font-bold text-[#2B3DA1] my-2">
+                                <p class="font-bold text-grey-900 my-2">
                                 {column.title}
                               
                               {/* Se existir bigNumber, mostra com estilo maior */}
                               {column.bigNumber && (
-                                <p className="text-5xl font-extrabold text-[#2B3DA1] my-2">
+                                <p className="text-5xl font-extrabold text-grey-900 my-2">
                                   {column.bigNumber}
                                 </p>
                               )}
@@ -282,7 +282,7 @@ const ProjectPage = () => {
       >
          {/* Número grande */}
         {column.bigNumber && (
-          <p className="text-4xl font-extrabold text-[#2B3DA1] mb-2">
+          <p className="text-4xl font-extrabold text-grey-900 mb-2 dark:text-white">
             {column.bigNumber}
           </p>
         )}
@@ -319,13 +319,13 @@ const ProjectPage = () => {
         )}
 
         {/* Título */}
-        <p className="font-bold text-[#2B3DA1] mb-2">{column.title}</p>
+        <p className="font-bold text-grey-900 mb-2 dark:text-white">{column.title}</p>
 
        
 
         {/* Texto descritivo */}
         {column.text && (
-          <p className="text-gray-800 dark:text-gray-200 text-sm mb-2">
+          <p className="text-gray-800 dark:text-gray-400 text-sm mb-2">
             {column.text}
           </p>
         )}
@@ -338,9 +338,9 @@ const ProjectPage = () => {
         {/* Citação */}
         {column.quote && (
           <blockquote className="italic text-center text-gray-600 dark:text-gray-300 text-base sm:text-lg mt-4 relative">
-            <span className="text-indigo-600 dark:text-indigo-400 text-4xl leading-none mr-1">“</span>
+            <span className="text-indigo-600 dark:text-grey-900 text-4xl leading-none mr-1">“</span>
             {column.quote}
-            <span className="text-indigo-600 dark:text-indigo-400 text-4xl leading-none ml-1">”</span>
+            <span className="text-indigo-600 dark:text-grey-900 text-4xl leading-none ml-1">”</span>
             {column.author && (
               <footer className="text-xs not-italic text-gray-500 dark:text-gray-400 mt-1">
                 — {column.author}

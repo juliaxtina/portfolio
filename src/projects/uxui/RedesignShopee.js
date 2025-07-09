@@ -81,17 +81,14 @@ const RedesignShopee = { //todo projeto é necessário mudar o nome do const
         title: "What we aimed to solve",
          inlineColumns: [
           {
-            bigNumber: "1",
             title: "Reduce cart abandonment",
             text: "Streamline the experience and reduce friction."
           },
           {
-            bigNumber: "2",
             title: "Build user confidence and loyalty",
             text: "Create a trustworthy checkout that encourages return."
           },
           {
-            bigNumber: "3",
             title: "Adapt the checkout flow to local expectations",
             text: "Customize the flow for Brazilian users."
           },
