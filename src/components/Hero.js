@@ -16,23 +16,10 @@ export function HeroBig() {
           {/* LINK */}
           <a
             href="/about"
-            className="inline-flex items-center py-2.5 px-5 me-2 text-md font-medium text-white focus:outline-none bg-transparent rounded-full bg-indigo-600 hover:bg-indigo-800 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-indigo-600 dark:text-white dark:hover:text-white dark:hover:bg-indigo-800 mx-auto"
+            className="inline-flex items-center py-2.5 px-5 me-2 text-md font-medium text-white focus:outline-none bg-indigo-600 rounded-full bg-indigo-600 hover:bg-indigo-800 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-indigo-600 dark:text-white dark:hover:text-white dark:hover:bg-indigo-800 mx-auto"
           >
             Get to know more about me
-            {/* LINK <svg
-              className="w-5 h-5 ml-2 -mr-1"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-            */}
-          </a>
+           </a>
         </div>
       </section>
     </>
