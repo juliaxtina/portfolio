@@ -4,7 +4,7 @@ export function HeroBig() {
       <section className="py-32 px-6 lg:py-48">
         <div className="max-w-screen-xl mx-auto">
           {/* TÍTULO EM LARGURA TOTAL */}
-          <h1 className="w-full mb-4 text-6xl font-semibold tracking-tight leading-tight md:text-6xl xl:text-7xl dark:text-gray-100 whitespace-nowrap">
+          <h1 className="w-full mb-4 text-6xl font-semibold tracking-tight leading-tight md:text-6xl xl:text-7xl dark:text-gray-100">
             Hello, I'm Júlia Pantaleão
           </h1>
 
