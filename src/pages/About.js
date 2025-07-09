@@ -35,18 +35,21 @@ const About = () => {
               <div class="col-span-2">
                 
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                Hi! My name is Júlia, and I'm a designer who started playing around with web design when I was just 12 years old (yes, back in the days when we spent hours customizing Tumblr with glitter, gifs, tons of copied code from StackOverflow forums).
+                Hi there! I'm Júlia, a UX/UI Designer who started playing around with web design when I was just 12 years old (back in the days when we spent hours customizing Tumblr with glitter, gifs, and tons of copied code from Stack Overflow forums). 
 </p>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-After high school, I enrolled in a technical course in IT, where I learned how to build a website from scratch — from HTML to JavaScript. That’s when I really started to understand what happens “behind the curtain” and fell in love with this world. But over time, I realized that while I enjoyed making things work, what truly interested me was thinking about how things looked, behaved, and connected with people.
+Today, I design digital experiences that are elegant, user-centered, and aligned with business goals. I've had the opportunity to work with startups, agencies, and currently a fintech, where I develop solutions for the financial market.
 </p>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-I’ve always been a very visual person, one of those kids who’s been doodling in the corners of notebooks since forever (and still does). After the course, I started studying design more seriously, diving into everything related to visual creation and digital experiences. In addition to UX/UI, I’m also passionate about digital illustration — feel free to check out my work on <a href="https://instagram.com/juliaxtina" class="underline">Instagram.</a>
+I’ve worked across agile teams, collaborating closely with developers, product managers, and stakeholders to bring ideas to life: from discovery and user research to high-fidelity interfaces and interactive prototypes. 
 </p>
+<h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                  When not designing:
+                </h3>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-Today, I work on creating meaningful experiences, designing interfaces that tell stories, make people’s lives easier, and turn navigation into something smooth and elegant.
-
-If you also believe that design is about connecting people, I think we’re already on the same page. ✨
+I love art, music and travel.
+So during my free time, I'm usually drawing (You can see some here: <a href="https://instagram.com/juliaxtina" class="underline">Instagram.</a>), reading graphic novels, watching movies, discovering new albums and new destinations.
+ ✈️
 </p>
           
               </div>
