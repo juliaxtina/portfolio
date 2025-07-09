@@ -1,32 +1,45 @@
 export function HeroBig() {
   return (
-   <>
-    <section>
-    <div class="grid gap-40 max-w-screen-xl px-4 py-16 mx-auto lg:grid lg:grid-cols-2 lg:py-24 lg:px-6">
-        <div class="mr-auto place-self-center">
-           <h1 class="max-w-2xl my-6 text-5xl italic font-medium tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-gray-100">Where ideas become experiences that truly connect</h1>
-          
-            <div class="flex gap-x-4 text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400 font-body mt-8 mb-6">
-           
-            <p>Hey I'm Júlia, a UX/UI Designer helping brands turn ideas into functional and bold visual stories.</p>
+    <>
+      <section className="py-32 px-6 lg:py-48">
+        <div className="max-w-screen-xl mx-auto">
+          {/* TÍTULO EM LARGURA TOTAL */}
+          <h1 className="w-full mb-4 text-6xl font-semibold tracking-tight leading-tight md:text-6xl xl:text-7xl dark:text-gray-100 whitespace-nowrap">
+            Hello, I'm Júlia Pantaleão
+          </h1>
+
+          {/* BIO MENOR */}
+          <div className="text-gray-500 md:text-base lg:text-xl dark:text-gray-400 font-body mt-4 mb-10 max-w-4xl">
+            <p>A UX/UI Designer helping brands turn ideas into functional and bold visual stories.</p>
           </div>
-            
-            <a href="/about" class="text-lg inline-flex items-center justify-center font-medium text-center text-indigo-600	 dark:text-gray-400">
+
+          {/* LINK */}
+          <a
+            href="/about"
+            className="inline-flex items-center py-2.5 px-5 me-2 text-md font-medium text-white focus:outline-none bg-transparent rounded-full bg-indigo-600 hover:bg-indigo-800 focus:z-10 focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 dark:bg-indigo-600 dark:text-white dark:hover:text-white dark:hover:bg-indigo-800 mx-auto"
+          >
             Get to know more about me
-                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-           
+            {/* LINK <svg
+              className="w-5 h-5 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+            */}
+          </a>
         </div>
-                  
-         <div class="lg:grid w-4/5 h-4/5 mt-8 hidden justify-end">
-         <img src="/img/photos/hero-img.png" alt="thumb hero" className="rounded-xl mt-4 max-w-lg object-cover"/>
-            
-        </div>
-    </div>
-</section>
+      </section>
     </>
-  )
+  );
 }
+
+
 
 
 const Title = ({ title, description, image }) => (
