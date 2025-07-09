@@ -35,11 +35,11 @@ const Title = ({ title, description, image }) => (
         <div className="col-span-2 mr-auto place-self-center">
     {title && (
       <div key={title} className="">
-        <dt className="max-w-2xl my-6 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl dark:text-gray-100 text-balance">
+        <dt className="max-w-2xl my-6 text-4xl font-extrabold tracking-tight leading-tight md:text-5xl xl:text-6xl dark:text-gray-100 text-balance">
           {title}
         </dt>
-        <dd className="max-w-2xl mb-6 mt-6 font-body text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400 text-balance">
-        <em>{description}</em>
+        <dd className="max-w-2xl mb-6 mt-6 font-body text-gray-500 lg:mb-8 text-base lg:text-lg dark:text-gray-400 text-balance">
+        {description}
         </dd>
       </div>
     )}

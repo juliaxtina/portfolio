@@ -16,9 +16,9 @@ const About = () => {
   }
   const HeroSmallTitle = [
     {
-      title: "About me",
+      title: "Júlia Pantaleão",
       description:
-        "A glimpse into my design journey.",
+        "25y | São Paulo - Brasil 📍",
       image: "../img/photos/profile.jpg",
     },
     /* { title: 'Title 2', description: 'Description 2' }, */
