@@ -3,7 +3,7 @@ const RedesignShopee = { //todo projeto é necessário mudar o nome do const
     title: "Redesign Shopee", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
     year: "2024",
     // link: "genera.com.br", //opcional 
-    color: "bg-[#D55425] dark:bg-[#D55425]", //cores do projeto, só escolher no tailwind
+    color: "bg-[#D85322] dark:bg-[#B24820]", //cores do projeto, só escolher no tailwind
     image: `${process.env.PUBLIC_URL}/img/photos/Cover-Shopee.jpg`, //imagem de fundo do hero
     thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-shopee.png`, //thumbnail
     description:
