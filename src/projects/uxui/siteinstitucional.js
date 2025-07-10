@@ -3,7 +3,7 @@ const siteinstitucional = { //todo projeto é necessário mudar o nome do const
     title: "Site Institucional - Smarthis", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
     year: "2024",
     link: "smarthis.com", //opcional 
-    color: "bg-[#212B36] dark:bg-[#292929]", //cores do projeto, só escolher no tailwind
+    color: "bg-[#2BA67C] dark:bg-[#204E40]", //cores do projeto, só escolher no tailwind
     image: `${process.env.PUBLIC_URL}/img/photos/CoverSmarthis.jpg`, //imagem de fundo do hero
     thumb: `${process.env.PUBLIC_URL}/img/photos/cover-smarthis2.png`, //thumbnail
     description:
