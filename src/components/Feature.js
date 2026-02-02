@@ -35,7 +35,7 @@ export default function Feature() {
               <Squares2X2Icon className="h-8 w-8" aria-hidden="true" />
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Design System</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance"> Save time with easy to use components</p>
+              <p class="text-gray-500 dark:text-gray-400 text-balance">Reusable components to save time and scale</p>
           </div>
          
          

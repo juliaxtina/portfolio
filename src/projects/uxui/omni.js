@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const omni = { //todo projeto é necessário mudar o nome do const
   
     title: "Omni", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
@@ -36,27 +38,8 @@ const omni = { //todo projeto é necessário mudar o nome do const
         ],
       },
      
-      
-      
-      
-  
-       /* {
-        //embed do Canva
-        
-        canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?embed",
-        caption: "(Click to interact)",
-      },
-*/
-      
-  
-      /*{
-        //embed do vimeo
-        vimeo: "https://player.vimeo.com/video/281909451?h=fdbdecd9de",
-  
-        caption: "legenda do vimeo",
-      },*/
      {
-      title: "Understanding the problem",
+      title: "The challenge",
       description: "Before Omni, the platform only supported the debtor portal, where users could view installments and renegotiate debts. Other user profiles (such as borrowers and investors) did not have direct access to information about their operations.To track performance, payments, or events, users had to rely on analysts, navigate multiple systems, spreadsheets, and lengthy documents. The project challenge was to unify this ecosystem and make information accessible to all involved profiles. Proposed value:",
                 
     },
@@ -225,10 +208,26 @@ const omni = { //todo projeto é necessário mudar o nome do const
     },
 
 {
-      //texto e descrição simples
-      title: "Thank you for following my work!",
-      description: "Thank you for taking the time to follow my work on the Omni platform! If you enjoyed it and would like to see more of my work, send me a message trought the Contact Page or send me a email: juliacristinap.santos@gmail.com"
-    },
+  title: "Thank you for following my work!",
+  description: (
+    <>
+      If you enjoyed it and would like to see more, send me a message through the{" "}
+      <Link
+        to="/contact"
+        className="underline hover:no-underline inline-flex"
+      >
+        contact page
+      </Link>
+      {" "}or send an email to:{" "}
+      <a
+        href="mailto:juliacristinap.santos@gmail.com"
+        className="underline hover:no-underline"
+      >
+        juliacristinap.santos@gmail.com
+      </a>
+    </>
+  )
+}
 
     ],
   };
