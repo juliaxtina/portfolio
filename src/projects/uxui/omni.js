@@ -1,7 +1,7 @@
-const Omni = { //todo projeto é necessário mudar o nome do const
+const omni = { //todo projeto é necessário mudar o nome do const
   
     title: "Omni", //o título tem que ser exatamente igual ao nome do arquivo, se não dá ruim
-    year: "2023",
+    year: "2026",
     // link: "genera.com.br", //opcional 
     color: "bg-[#620937] dark:bg-[#3D0727]", //cores do projeto, só escolher no tailwind
     image: `${process.env.PUBLIC_URL}/img/photos/Cover-omni.png`, //imagem de fundo do hero
@@ -234,5 +234,5 @@ const Omni = { //todo projeto é necessário mudar o nome do const
   };
   
   
-  export default Omni;
+  export default omni;
   
