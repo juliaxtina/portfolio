@@ -8,7 +8,7 @@ const Omni = { //todo projeto é necessário mudar o nome do const
     thumb: `${process.env.PUBLIC_URL}/img/photos/Cover-opea.png`, //thumbnail
     description:
       "A unified experience to manage securitization operations.",
-    scope: "User Interface, User Experience",
+    scope: "Product Design",
     type: "Company Project",
     duration: "12 Months", //opcional
   
