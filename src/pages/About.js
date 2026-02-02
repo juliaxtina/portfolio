@@ -18,7 +18,7 @@ const About = () => {
     {
       title: "Júlia Pantaleão",
       description:
-        "25y | São Paulo - Brasil 📍",
+        "26y | São Paulo - Brasil 📍",
       image: "../img/photos/profile.jpg",
     },
     /* { title: 'Title 2', description: 'Description 2' }, */
