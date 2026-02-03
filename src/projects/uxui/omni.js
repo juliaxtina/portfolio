@@ -46,7 +46,48 @@ const omni = { //todo projeto é necessário mudar o nome do const
     {
       quote: "Transform a complex and fragmented process into a clear, integrated, data-driven experience.",
     },
-      
+       {
+      title: "My Role",
+    
+
+    },
+{
+columns: [
+ {
+    icon: "UsersIcon",
+    text: "User profile research and understanding of user needs",
+  },
+  {
+    icon: "ChartBarIcon",
+    text: "Market research in securitization and investments, including benchmarking of key players",
+  },
+  {
+    icon: "LightBulbIcon",
+    text: "Feature definition in collaboration with the Product Manager and stakeholders",
+  },
+  {
+    icon: "Squares2X2Icon",
+    text: "Information architecture definition and user flow mapping",
+  },
+  {
+    icon: "CursorArrowRaysIcon",
+    text: "High-fidelity design and prototyping for the MVP",
+  },
+  {
+    icon: "ClipboardDocumentCheckIcon",
+    text: "Usability testing and user interviews to validate the MVP",
+  },
+  {
+    icon: "ArrowPathIcon",
+    text: "Iterations and refinements based on testing insights",
+  },
+  
+],
+},
+
+
+
+    
      
       
       
