@@ -7,7 +7,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
     image: `${process.env.PUBLIC_URL}/img/photos/Cover-Shopee.jpg`, //imagem de fundo do hero
     thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-shopee.png`, //thumbnail
     description:
-      "Simplifying Shopee’s checkout with a clear multi-step flow and an improved interface to make buying easier and more enjoyable.",
+      "Redesigning Shopee’s checkout experience by reducing cognitive load, clarifying steps, and adapting the flow to Brazilian users’ expectations.",
     scope: "User Interface, User Experience",
     type: "Case Study",
     duration: "3 Months", //opcional
@@ -15,7 +15,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
     contents: [
       {
         //texto e descrição simples
-        title: "The Challenge",
+        title: "Context & Problem",
         description:
           "Although Shopee is widely used in Brazil, the app still follows purchasing patterns common in Asian markets. This creates friction for local users — especially during the long and often confusing checkout process.",
       },
@@ -26,47 +26,55 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
           "Users feel overwhelmed during checkout, increasing the chances of cart abandonment before completing their purchase.",
       },
     
-      
-  
      
-      
-      
-      
-  
-       /* {
-        //embed do Canva
-        
-        canva: "https://www.canva.com/design/DAF8D-SZvL4/yR5bQFmP0Ivdjco0BB7b2g/view?embed",
-        caption: "(Click to interact)",
-      },
-*/
-      
-  
-      /*{
-        //embed do vimeo
-        vimeo: "https://player.vimeo.com/video/281909451?h=fdbdecd9de",
-  
-        caption: "legenda do vimeo",
-      },*/
+     
      {
-      title: "Understanding the problem",
-      columns: [
-        {
-          icon: "ChatBubbleOvalLeftIcon", 
-          bigNumber: "81%",
-          text: "said the app’s navigation is confusing",
-          //aditional: "Outro texto se quiser",
-        },
-        {
-          icon: "QuestionMarkCircleIcon", 
-          bigNumber: "31.1%",
-          text: "believe the purchase flow needs improvement",
-        },
+      title: "Research Overview",
+      subtitle: "A quantitative user research study with 80 respondents was conducted to validate the initial hypotheses and identify key usability issues.",
+     },
+     {
+       title:
+          "User Profiles:",
+     
+        inlineColumns: [
+    {
       
-      ],
-      
-      
+      text: "56.8% between 25–35 years old",
     },
+    {
+      
+      text: "44.6% use the app up to 3 times a year",
+    },
+    {
+      
+      text: "36.5% use the app monthly",
+    },
+  ],
+    },
+    
+
+
+     {
+  title: "Insights",
+  columns: [
+    {
+      bigNumber: "19.2%",
+      icon: "MapIcon",
+      text: "of users consider the app navigation very clear",
+    },
+    {
+      bigNumber: "89.2%",
+      icon: "ShoppingCartIcon",
+      text: "reported having abandoned a cart at least once",
+    },
+    {
+       bigNumber: "31.1%",
+      icon: "ExclamationTriangleIcon",
+      text: "of users felt that the checkout process could be improved",
+    },
+  ],
+},
+
     {
       quote: "How can we make the cart and payment flow smoother and more intuitive, without skipping important steps?",
     },

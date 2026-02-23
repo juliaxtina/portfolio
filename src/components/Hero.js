@@ -10,7 +10,7 @@ export function HeroBig() {
 
           {/* BIO MENOR */}
           <div className="text-gray-500 md:text-base lg:text-xl dark:text-gray-400 font-body mt-4 mb-10 max-w-4xl">
-            <p>A UX/UI Designer helping brands turn ideas into functional and bold visual stories.</p>
+            <p>A Product Designer helping brands turn ideas into functional and bold visual stories.</p>
           </div>
 
           {/* LINK */}

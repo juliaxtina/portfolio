@@ -20,22 +20,22 @@ export default function Feature() {
               <div class="flex justify-center items-center mb-4 w-20 h-20 rounded-full lg:h-20 lg:w-20 bg-fuchsia-200">
               <CodeBracketIcon className="h-8 w-8" aria-hidden="true" />
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">UX/UI Design</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Product Design</h3>
               <p class="text-gray-500 dark:text-gray-400 text-balance">Digital journeys that align with business goals </p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-20 h-20 rounded-full bg-primary-100 lg:h-20 lg:w-20 bg-fuchsia-400">
               <PaintBrushIcon className="h-8 w-8" aria-hidden="true" />
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Visual Design</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance"> Visual identities that brings personality</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Product Discovery</h3>
+              <p class="text-gray-500 dark:text-gray-400 text-balance"> Hypothesis validation through research and usability testing</p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-20 h-20 rounded-full lg:h-20 lg:w-20 bg-indigo-400">
               <Squares2X2Icon className="h-8 w-8" aria-hidden="true" />
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Design System</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance">Reusable components to save time and scale</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Design Systems & Ops</h3>
+              <p class="text-gray-500 dark:text-gray-400 text-balance">Scalable architecture and governance to empower product teams</p>
           </div>
          
          

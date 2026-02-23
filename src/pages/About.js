@@ -35,7 +35,7 @@ const About = () => {
               <div class="col-span-2">
                 
                 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
-                Hi there! I'm Júlia, a UX/UI Designer who started playing around with web design when I was just 12 years old (back in the days when we spent hours customizing Tumblr with glitter, gifs, and tons of copied code from Stack Overflow forums). 
+                Hi there! I'm Júlia, a Product Designer and UX/UI Specialist who started playing around with web design when I was just 12 years old (back in the days when we spent hours customizing Tumblr with glitter, gifs, and tons of copied code from Stack Overflow forums). 
 </p>
 <p class="mt-3 mb-8 sm:text-xl leading-relaxed text-base  dark:text-gray-400 text-balance">
 Today, I design digital experiences that are elegant, user-centered, and aligned with business goals. I've had the opportunity to work with startups, agencies, and currently a fintech, where I develop solutions for the financial market.
