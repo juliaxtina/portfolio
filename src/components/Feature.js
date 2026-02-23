@@ -3,6 +3,7 @@ import {
     CameraIcon,
     PaintBrushIcon,
     Squares2X2Icon,
+    LightBulbIcon,
   } from '@heroicons/react/24/outline'
 
 export default function Feature() {
