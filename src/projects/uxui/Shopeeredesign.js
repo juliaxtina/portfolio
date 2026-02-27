@@ -7,7 +7,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
     image: `${process.env.PUBLIC_URL}/img/photos/Cover-Shopee.jpg`, //imagem de fundo do hero
     thumb: `${process.env.PUBLIC_URL}/img/photos/thumb-shopee.png`, //thumbnail
     description:
-      "Redesigning Shopee’s checkout experience by reducing cognitive load, clarifying steps, and adapting the flow to Brazilian users’ expectations.",
+      "Less noise, more conversion.",
     scope: "User Interface, User Experience",
     type: "Case Study",
     duration: "3 Months", //opcional
@@ -17,136 +17,108 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
         //texto e descrição simples
         title: "Context & Problem",
         description:
-          "Although Shopee is widely used in Brazil, the app still follows purchasing patterns common in Asian markets. This creates friction for local users — especially during the long and often confusing checkout process.",
+          "Shopee is an e-commerce giant, known for its competitive prices and infinite variety. But this abundance comes at a high price: cognitive overload. The current interface bombards the user with information, tags, and banners, making it difficult to focus on what really matters: completing the purchase. The challenge of this academic project was clear:",
       },
+      
       {
         //texto e descrição simples
-        title: "Hypothesis",
-        description:
-          "Users feel overwhelmed during checkout, increasing the chances of cart abandonment before completing their purchase.",
+        quote:
+          "How to reduce visual pollution and optimize the checkout journey without losing the platform's promotional essence?",
       },
-    
-     
-     
-     {
-      title: "Research Overview",
-      subtitle: "A quantitative user research study with 80 respondents was conducted to validate the initial hypotheses and identify key usability issues.",
+
+       {
+      title: "Starting Point",
+      description: "Before diving into the research, we mapped out some critical assumptions about the friction points in the interface:",
      },
      {
-       title:
-          "User Profiles:",
-     
-        inlineColumns: [
+          
+        columns: [
     {
-      
-      text: "56.8% between 25–35 years old",
+      icon: "PuzzlePieceIcon",
+      title: "Pollution and Overload",
+      text: "Interface with too much information lacking cohesion and harmony, causing distractions.",
+    },
+
+    {
+       icon: "MapIcon",
+      title: "Confusing Navigation",
+      text: "Difficulty finding categories and confusions like the 'see more' and 'more categories' buttons.",
     },
     {
-      
-      text: "44.6% use the app up to 3 times a year",
+         icon: "ShoppingCartIcon",
+      title: "The Cart Cemetery",
+      text: "Products are abandoned for a long time. The process of clearing the cart doesn't work properly, and selecting variations (colors/sizes) is confusing.",
     },
-    {
-      
-      text: "36.5% use the app monthly",
+     {
+         icon: "ClockIcon",
+      title: "Endless Checkout",
+      text: "A lengthy stage that leaves vital parts to be confirmed aside, generating insecurity.",
     },
   ],
-    },
+},
+
+
+        {
+        title: "Hypothesis Validation",
+        description: "To validate (or debunk) these hypotheses, we ran a quantitative survey with 80 users. The data revealed that the problem was even deeper:",
+        columns: [
+          {
+            bigNumber: "92.5%",
+            text: "use the platform for purchases, and the vast majority (89.2%) use the search bar directly; the categories section is not used.",
+          },
+          {
+            bigNumber: "89.2%",
+            text: "have abandoned a shopping cart on Shopee.",
+          },
+          {
+            bigNumber: "15.2%",
+            text: "users said the main reason was difficulties in the process and confusion with the excess of information, while the others said the reason was the price being too high.",
+          },
+        ],
+        
+      },
+      {
+        description: "A Heuristic Analysis confirmed the pain points: the current checkout violates Hick's Law, as the excess of options drastically increases the user's decision time.",
+      },
+    
+     
+     {
+      title: "Anna's Journey (Personifying the Problem)",
+      Description: "To materialize the data, we mapped out the journey of Anna, a user focused on competitive prices. When trying to complete an order with items from different stores, she runs into real frustrations:",
+     },
+     
     
 
 
      {
-  title: "Insights",
   columns: [
     {
-      bigNumber: "19.2%",
-      icon: "MapIcon",
-      text: "of users consider the app navigation very clear",
-    },
-    {
-      bigNumber: "89.2%",
       icon: "ShoppingCartIcon",
-      text: "reported having abandoned a cart at least once",
+      title:"In the Cart",
+      text: "Absurd difficulty in removing unwanted products and confusion when differentiating items from two distinct stores.",
     },
     {
-       bigNumber: "31.1%",
-      icon: "ExclamationTriangleIcon",
-      text: "of users felt that the checkout process could be improved",
+      icon: "CreditCardIcon",
+      title:"At Payment",
+      text: "The overloaded screen hides the most important information, generating doubt about which payment method is actually being used.",
     },
+    
   ],
 },
 
-    {
-      quote: "How can we make the cart and payment flow smoother and more intuitive, without skipping important steps?",
-    },
-      
-     {
-      //imagem tamanho padrão
-      img: `${process.env.PUBLIC_URL}/img/photos/Shopeeid.png`
-    },
-      
-      
-     {
-        title: "What we aimed to solve",
-         inlineColumns: [
-          {
-            title: "Reduce cart abandonment",
-            text: "Streamline the experience and reduce friction."
-          },
-          {
-            title: "Build user confidence and loyalty",
-            text: "Create a trustworthy checkout that encourages return."
-          },
-          {
-            title: "Adapt the checkout flow to local expectations",
-            text: "Customize the flow for Brazilian users."
-          },
-        ]
+{
+  title: "The Solution (The Redesign)",
+  description: "Based on the prioritization matrix (Desirability, Feasibility, and Viability Matrix), I focused on opportunities of high value for the user and the business with high technical ease of implementation. The new interface tackles the frictions head-on:",
 },
+      
+   
 
-
-
       {
-        title: "Key opportunities",
-      },
-      {
-      columns: [
-      {
-        //texto e descrição simples
-        title: "Simplify",
-        icon: "Square2StackIcon",
-        text:
-          "Break the process into smaller, guided steps"
-          
-      },
-      {
-        title: "Organize",
-        icon: "Cog6ToothIcon",
-        text:
-          "Clarify and organize critical information"
-          
-      },
-      {
-        title: "Double Check",
-        icon: "CheckCircleIcon",
-        text:
-          "Allow full review before finalizing"
-          
-      },
-      {
-        title: "Familiarity",
-        icon: "HandThumbUpIcon",
-        text:
-          "Use a layout more familiar to Brazilian users"
-          
-      },
-    ],
-  },
-      {
-      title: "Shopping Cart",
+      title: "Clean and Functional Cart",
       },
         {
             description:
-          "For the shopping cart, we focused on a clear font hierarchy with ample spacing, visible shipping calculations and progress indicators, clear distinction between national and international orders to avoid misinterpretations, and highlighted coupons alongside a detailed subtotal.",
+          "We reorganized the footer into a transparent vertical hierarchy, making it clear which address is active for that order and separating the item quantity ('Products (2)') to better break down the costs. In the coupons section, we added a quick indicator ('2 available') to reduce unnecessary clicks. Furthermore, we removed the product selection checkboxes to combat the 'cart cemetery', preventing users from leaving unchecked items accumulating and unnecessarily cluttering the interface. This decision also acts as a vital error prevention measure, ensuring the user doesn't accidentally pay for an item they forgot to uncheck. The purpose is for the cart to become a place dedicated solely to conversion, rather than an unfulfilled wishlist.",
         },
         
       
@@ -175,7 +147,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
   
         {
             description:
-          "Our step-by-step navigation clearly shows users which step they are on, reducing cognitive load and simplifying the checkout process with easier address selection and editing, along with clear shipping options for a smoother experience.",
+          "We transformed the endless, single-page checkout into a guided, step-by-step flow. By isolating the 'Address' and 'Shipping' selections into dedicated screens, the user processes one piece of information at a time, reducing cognitive load and anxiety. In the shipping step, I added a clear visual separation between 'National' and 'International' deliveries, making it easier to understand the different fees and delivery timeframes. This step-by-step approach, featuring targeted action buttons ('Continue to shipping'), eliminates distractions, prevents errors (such as selecting the wrong address or card), and safely guides the user to the final conversion.",
         },
         
       
@@ -202,7 +174,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
     },
         {
             description:
-          "The frictionless payment method selection, combined with a clear order summary before checkout and the ability to edit any step, ensures a controled experience, while the post-purchase timeline keeps users informed.",
+          "To complete the guided step-by-step flow, we designed dedicated screens for Payment and Order Review. Previously, all billing, shipping, and product information was crammed into a single endless page, causing confusion and insecurity. Now, selecting a payment method is a clean, visually distinct process. I introduced a final 'Order Review' step, allowing users to confidently double-check all details (items, address, and a transparent cost breakdown) before the final charge, acting as a crucial error-prevention measure. Finally, the new success screen features a clear order status timeline, drastically reducing post-purchase anxiety.",
         },
         
       
@@ -223,8 +195,25 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
 
       {
         title: "Results and user feedback",
+        description: "To ensure our redesign truly solved the cognitive overload, we validated the new architecture through a Tree Test and moderated Usability Testing sessions.",
+
 
       },
+      {
+      columns: [
+        {
+          icon:"PresentationChartBarIcon",
+          title: "High Success Rates",
+          text: "The Tree Test quantitative results showed an overwhelming direct success rate across all primary tasks. Users navigated the new cart hierarchy and checkout steps intuitively, without getting lost or second-guessing their clicks.",
+        },
+         {
+          icon:"CheckBadgeIcon",
+
+          title: "Zero Friction",
+          text: "Qualitative feedback confirmed that breaking the 'endless checkout' into a guided stepper drastically reduced anxiety.",
+        },
+      ],
+    },
 {
   inlineColumns: [
     {
@@ -241,20 +230,25 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
       title: "Main takeaways",
       columns: [
         {
-          text: "✅ Lower cognitive load = faster, smoother purchases",
+          title: "Lower Cognitive Load",
+          text: "✅ Removing the 'cart cemetery' and endless scrolling resulted in faster, smoother purchase decisions.",
         },
         {
-          text: "✅ Users could easily review all their details",
+          title: "Error Prevention",
+
+          text: "✅ The step-by-step checkout allowed users to confidently review details, preventing wrong addresses or payment methods.",
         },
         {
-          text: "✅ More intuitive and distraction-free experience",
+          title: "Transparent Shipping",
+
+          text: "✅ Separating National vs. International delivery wiped out hidden surprises and managed expectations.",
         },
         {
-          text: "✅ Clearer delivery expectations",
+          title: "Reduced Anxiety",
+
+          text: "✅ The new post-purchase timeline gives immediate clarity, potentially reducing support tickets.",
         },
-        {
-          text: "✅ Post-purchase timeline reduced support tickets",
-        },
+       
         
       ],
     },
@@ -262,13 +256,12 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
 {
   title: "Conclusion",
           description:
-            "By adjusting the structure and visuals of Shopee’s checkout flow, we made the experience more fluid, user-friendly, and culturally aligned with Brazilian users. This redesign shows how adapting a global product to users needs can improve clarity, trust, and user satisfaction.",
+            "By replacing Shopees cluttered, single-page checkout with a clean, step-by-step guided flow, we transformed a stressful experience into a fluid user journey. This redesign proves that adapting a globally complex product to prioritize clarity and error prevention directly boosts user trust and conversion rates.",
             
         },
         {
         description:
-            "This was the final project for the Advanced UX/UI Design course at CoderHouse, a 50-hour program over 13 weeks. CoderHouse is an online school committed to providing high-quality, accessible education across Latin America."
-            ,
+            "This was the final project for the Advanced UX/UI Design course at CoderHouse, a comprehensive 50-hour program over 13 weeks. CoderHouse is an online school committed to providing high-quality, accessible education across Latin America.",
         }
 
     ],
