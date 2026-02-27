@@ -17,7 +17,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
         //texto e descrição simples
         title: "Context & Problem",
         description:
-          "Shopee is an e-commerce giant, known for its competitive prices and infinite variety. But this abundance comes at a high price: cognitive overload. The current interface bombards the user with information, tags, and banners, making it difficult to focus on what really matters: completing the purchase. The challenge of this academic project was clear:",
+          "Shopee is an e-commerce giant, known for its competitive prices and infinite variety. But this abundance comes at a high price: cognitive overload. The current interface bombards the user with information, tags, banners, making it difficult to focus on what really matters: completing the purchase. The challenge of this academic project was clear:",
       },
       
       {
