@@ -108,7 +108,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
 
 {
   title: "The Solution (The Redesign)",
-  description: "Based on the prioritization matrix (Desirability, Feasibility, and Viability Matrix), I focused on opportunities of high value for the user and the business with high technical ease of implementation. The new interface tackles the frictions head-on:",
+  description: "Based on the prioritization matrix (Desirability, Feasibility, and Viability Matrix), we focused on opportunities of high value for the user and the business with high technical ease of implementation. The new interface tackles the frictions head-on:",
 },
       
    
