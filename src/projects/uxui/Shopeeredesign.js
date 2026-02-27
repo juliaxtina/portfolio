@@ -84,7 +84,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
      
      {
       title: "Anna's Journey (Personifying the Problem)",
-      Description: "To materialize the data, we mapped out the journey of Anna, a user focused on competitive prices. When trying to complete an order with items from different stores, she runs into real frustrations:",
+      description: "To materialize the data, we mapped out the journey of Anna, a user focused on competitive prices. When trying to complete an order with items from different stores, she runs into real frustrations:",
      },
      
     
