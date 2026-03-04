@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import { LinkIcon } from "@heroicons/react/24/outline";
 import RecentProjects from "./recentprojects";
 import * as Icons from "@heroicons/react/24/outline";
+import Lottie from "lottie-react";
 
 // Use require.context to dynamically import all files within './projects'
 const uxuiContext = require.context("../projects/uxui", false, /\.js$/);
@@ -380,6 +381,22 @@ const ProjectPage = () => {
                         </section>
                       </>
                     )}
+                   {content.media?.type === "lottie" && (
+                  <section>
+                    <div className="lg:max-w-4xl mx-auto w-full lg:py-16 py-3">
+                      <Lottie
+                        animationData={content.media.src}
+                        loop={true} autoplay
+                      />
+                    </div>
+                  </section>
+                )}
+                    
+                  {content.video && (
+                    <video src={content.video} autoPlay loop muted playsInline className="w-[800px] mx-auto rounded-2xl"/>
+                  )}
+                
+                  
 
                     {content.Duo && (
                       <>

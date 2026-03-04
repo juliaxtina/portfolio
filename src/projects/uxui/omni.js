@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import omniAnimation from "./omniAnimation.json";
 
 const omni = { //todo projeto é necessário mudar o nome do const
   
@@ -244,8 +245,12 @@ columns: [
       ],
     },
         
-   {
-      imgBig: `${process.env.PUBLIC_URL}/img/photos/Omni.png`
+ //{
+  //video: `${process.env.PUBLIC_URL}/img/photos/omni.mp4`
+//},
+{
+      //imagem tamanho padrão
+      img: `${process.env.PUBLIC_URL}/img/photos/Omni-final.png`
     },
 
 {
