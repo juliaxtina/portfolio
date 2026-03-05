@@ -46,7 +46,7 @@ const Title = ({ title, description, image }) => (
     </div>
     {image && (
       <div key={image} className="">
-         <img class="mt-4 aspect-square w-3/4 rounded-full object-cover saturate-50 hover:saturate-100 duration-300  transition-all" src={image}/>
+         <img class="mt-4 aspect-square w-3/4 rounded-full object-cover" src={image}/>
       </div>
     )}
     </div>
