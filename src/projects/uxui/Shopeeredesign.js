@@ -265,7 +265,7 @@ const Shopeeredesign = { //todo projeto é necessário mudar o nome do const
         },
         {
         description:
-            "This was the final project for the Advanced UX/UI Design course at CoderHouse, a comprehensive 50-hour program over 13 weeks. CoderHouse is an online school committed to providing high-quality, accessible education across Latin America.",
+            "This was the final project for the Advanced UX/UI Design course at CoderHouse, a comprehensive 50-hour program over 13 weeks.",
         }
 
     ],

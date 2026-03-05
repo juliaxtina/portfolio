@@ -13,7 +13,7 @@ export default function Feature() {
 <section>
   <div class="px-4 py-16 mx-auto max-w-screen-xl sm:py-16 lg:px-8 lg:gap-8 xl:gap-0 lg:py-24">
       <div class="max-w-screen-md mb-8 lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">What can I offer?</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">How I can help</h2>
           
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -29,14 +29,14 @@ export default function Feature() {
               <LightBulbIcon className="h-8 w-8" aria-hidden="true" />
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Product Discovery</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance"> Hypothesis validation through research and usability testing</p>
+              <p class="text-gray-500 dark:text-gray-400 text-balance">Validating ideas through research and experimentation</p>
           </div>
           <div>
               <div class="flex justify-center items-center mb-4 w-20 h-20 rounded-full lg:h-20 lg:w-20 bg-indigo-400">
               <Squares2X2Icon className="h-8 w-8" aria-hidden="true" />
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Design Systems & Ops</h3>
-              <p class="text-gray-500 dark:text-gray-400 text-balance">Scalable architecture and governance to empower product teams</p>
+              <p class="text-gray-500 dark:text-gray-400 text-balance">Building scalable systems for consistent and efficient products</p>
           </div>
          
          
