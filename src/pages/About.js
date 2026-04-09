@@ -174,7 +174,7 @@ So during my free time, I'm usually drawing (You can see some here: <a href="htt
                 <p>Opea Capital (Fintech)</p>
 
                 <h5 class="font-bold mt-4">User Interface Designer</h5>
-                <p>Smarthis</p>
+                <p>Smarthis (RPA & AI Startup)</p>
 
                 <h5 class="font-bold mt-4">UX/UI Designer</h5>
                 <p>SuperOpa</p>
