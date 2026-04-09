@@ -204,9 +204,9 @@ So during my free time, I'm usually drawing (You can see some here: <a href="htt
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Post Graduation 
                 </h3>
-                <h5 class="font-bold mt-4">Digital Business Management and Artificial Intelligence - In progress</h5>
+                <h5 class="font-bold mt-4">Digital Business Management and Artificial Intelligence </h5>
                 <p>USP -  Universidade de São Paulo - Esalq </p>
-                 <p>MBA </p>
+                 <p>MBA - In progress </p>
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Professional courses
                 </h3>
