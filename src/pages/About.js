@@ -5,6 +5,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { useEffect } from "react";
 import { trackGAEvent } from "../components/google-analytics";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 
 const About = () => {
   useEffect(() => {
@@ -169,8 +170,8 @@ So during my free time, I'm usually drawing (You can see some here: <a href="htt
                   Work Experience
                 </h3>
 
-                <h5 class="font-bold mt-4">UX/UI Designer</h5>
-                <p>Opea Capital</p>
+                <h5 class="font-bold mt-4">Product Designer</h5>
+                <p>Opea Capital (Fintech)</p>
 
                 <h5 class="font-bold mt-4">User Interface Designer</h5>
                 <p>Smarthis</p>
@@ -189,21 +190,30 @@ So during my free time, I'm usually drawing (You can see some here: <a href="htt
 
               </div>
               <div class="">
+                
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Barchelor Degree
                 </h3>
+                  
 
                 <h5 class="font-bold mt-4">Graphic Design</h5>
                 <p>Universidade Cidade de São Paulo</p>
+                <a href="https://drive.google.com/file/d/1ingvqO-H30rRh2wvJZOjPqBgGcmVoVzL/view?usp=sharing" class="underline inline-flex gap-1 items-center" target="_blank" >Diploma<ArrowTopRightOnSquareIcon className="w-4 h-4 "  aria-hidden="true"/></a>
 
 
+                <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                  Post Graduation 
+                </h3>
+                <h5 class="font-bold mt-4">Digital Business Management and Artificial Intelligence - In progress</h5>
+                <p>USP -  Universidade de São Paulo - Esalq </p>
+                 <p>MBA </p>
                 <h3 class="mb-4 mt-8 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Professional courses
                 </h3>
 
                 <h5 class="font-bold mt-4">Google UX Design </h5>
-                <p>Coursera</p>
-                <a href="https://www.coursera.org/account/accomplishments/professional-cert/X73BFG4TU7JR" class="hover:underline" target="_blank">Credential</a>
+                <p>Coursera <a href="https://www.coursera.org/account/accomplishments/professional-cert/X73BFG4TU7JR" class="underline inline-flex gap-1 items-center" target="_blank" >Credential<ArrowTopRightOnSquareIcon className="w-4 h-4 "  aria-hidden="true"/></a></p>
+                
 
                 <h5 class="font-bold mt-4">Programming and Webdesign</h5>
                 <p>Etec de Praia Grande</p>
